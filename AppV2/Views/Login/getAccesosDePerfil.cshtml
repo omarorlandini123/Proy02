@@ -1,0 +1,55 @@
+﻿@using Entidades;
+@model IEnumerable<Acceso>
+
+@if (Session["usuario"] != null)
+{
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Accesos</h3>
+        </div>
+        <div class="panel-body">
+           @if (((Usuario)Session["usuario"]).tieneAccesoA(Accesos.VerAccesos))
+           {
+
+               foreach (var item in Model)
+               {
+                   bool check = false;
+                   if (ViewBag.AccesosPerfil != null)
+                   {
+                       foreach (var acc in ((List<Acceso>
+                           )ViewBag.AccesosPerfil))
+                       {
+                           if (item.codigo == acc.codigo)
+                           {
+                               check = true;
+                           }
+
+                       }
+                   }
+                    <div class="col-sm-6"><input type="checkbox" name="accperfil" id="cbox@((int)item.codigo)" @(check ? "checked=\"checked\"" : "") value="@((int)item.codigo)">@item.descripcion</div>
+
+               }
+
+
+           }
+        </div>
+        <div class="panel-footer">
+            <button type="button" class="btn btn-success btn-sm" onclick="GuardarAccesos(@ViewBag.idPerfil)"> Guardar </button>
+        </div>
+    </div>
+
+
+}
+else
+{
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Accesos</h3>
+        </div>
+        <div class="panel-body">
+            Inicie sesión nuevamente
+        </div>
+    </div>
+
+}

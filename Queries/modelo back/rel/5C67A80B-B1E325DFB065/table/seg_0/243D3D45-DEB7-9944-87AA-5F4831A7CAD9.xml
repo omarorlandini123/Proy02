@@ -1,0 +1,233 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="243D3D45-DEB7-9944-87AA-5F4831A7CAD9" name="T_APROB_PRESUP">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:51:03 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_APROB_PRESUP" id="E6065F1F-04D3-AB00-0C81-E0423D96B83C">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:58:58 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_NIVEL" id="06697B00-DD46-ED6C-5D80-29257FDE74E1">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:58:58 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00AC2988-F3AE-211B-B938-5ABBF6FB64A6" referredColumn="AC19C15D-EC05-B490-3C0A-B79164D35895"/>
+</associations>
+</Column>
+<Column name="ID_PRESUP" id="2DEDAEE3-2D0C-AC7A-8697-99555FF5EA9E">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:58:58 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="723D1344-B69D-0CB5-B400-7CBA6A556DEF" referredColumn="CB8E53AD-B427-6E3F-B737-234EC3B3DD6B"/>
+</associations>
+</Column>
+<Column name="ID_TP_PRESUP" id="564773C8-E544-B592-8692-B0BA1C58B5E6">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:58:58 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27E08D51-0E99-271C-8403-0B59CDAF7C67" referredColumn="5D6F22EF-A4E8-C58B-1B46-A41A4AF9F1CA"/>
+</associations>
+</Column>
+<Column name="ID_VSN" id="FF8F813E-3009-C0CE-F998-E0B5C4A75911">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:58:58 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D39FCEAC-D0EA-54CF-DA21-69412D13F09F" referredColumn="1F0A15FA-CC68-6B86-63AD-8ED78E792576"/>
+</associations>
+</Column>
+<Column name="ID_DTLL" id="6A3B360E-F65A-B7FE-BEA6-60E8ED40148B">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:58:58 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92AFBF12-96D3-042F-B1AE-4B222D1823DE" referredColumn="350C6142-8291-2D93-A4D2-7788C133DF95"/>
+</associations>
+</Column>
+<Column name="ORDEN" id="5DDDEDC9-1886-8733-FEEA-92A9B331BCE5">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:22:47 UTC</createdTime>
+<commentInRDBMS>ORDEN DE APROBACION </commentInRDBMS>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USR_APROB" id="BD732DFD-4DE2-02FA-C20B-91C65ED5100B">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:23:39 UTC</createdTime>
+<commentInRDBMS>El usuario que debe aprobar el presupuesto, tipo, version o detalle</commentInRDBMS>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FEC_APROB" id="553ADA5F-CAD2-E6B7-BA67-27519E66ABA3">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:23:58 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="1A697BB9-01F7-2376-3FDF-BCDA5A95C56C">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:58:58 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USR_REG" id="ECAF0EB1-0515-40B3-8C2D-F70482C15C59">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:58:58 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FEC_REG" id="19FB28EC-EA58-9391-4BD8-F9D87EC3877F">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:58:58 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBS" id="3F07123F-02BD-490A-EE72-DB5ECAAFE856">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:58:58 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA875676-91E5-9A9B-C6AE-5E963EBD0BE8" name="APROBACION_PRESUP_PK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:01:13 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6065F1F-04D3-AB00-0C81-E0423D96B83C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4C1F3AC-3139-405F-3838-28774687EF69" name="T_APRB_PRESUP_T_NVL_APRB_FK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 00:07:40 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06697B00-DD46-ED6C-5D80-29257FDE74E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94B5EEE0-4639-5BD8-7CBC-9011A3B2A17F" name="T_APRB_PRESUP_T_PRESUP_FK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 00:07:58 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DEDAEE3-2D0C-AC7A-8697-99555FF5EA9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE2C02CF-6E31-7D05-FF54-5482B3A7844C" name="T_APRB_PRESUP_T_VSN_FK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 00:08:33 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF8F813E-3009-C0CE-F998-E0B5C4A75911"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DC462C3-E0EB-2F10-6421-827F27FD1994" name="T_APRB_PRESUP_T_DTL_VSN_FK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 00:08:58 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A3B360E-F65A-B7FE-BEA6-60E8ED40148B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4781ED8F-7667-BA95-6C93-9A67C8F70C77" name="T_APRB_PRESP_T_PRESP_TP_FK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 00:27:06 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="564773C8-E544-B592-8692-B0BA1C58B5E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

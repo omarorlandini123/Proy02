@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.sima.com.pe/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.sima.com.pe/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.sima.com.pe/">
+      <s:element name="LogOn">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ValidaAD" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LogOnResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LogOnResult" type="tns:RespuestaBE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="RespuestaBE">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IdUsuario" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Estado" type="tns:ModoExiste" />
+          <s:element minOccurs="0" maxOccurs="1" name="MiPerfil">
+            <s:complexType>
+              <s:sequence>
+                <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="ModoExiste">
+        <s:restriction base="s:string">
+          <s:enumeration value="DAyBD" />
+          <s:enumeration value="NoDA" />
+          <s:enumeration value="NoDAyBD" />
+          <s:enumeration value="NoBD" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="GetOptionsByProfile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IdSistema" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="IdUsuario" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOptionsByProfileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOptionsByProfileResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RespuestaBE" nillable="true" type="tns:RespuestaBE" />
+      <s:element name="DataTable" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+            <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="LogOnSoapIn">
+    <wsdl:part name="parameters" element="tns:LogOn" />
+  </wsdl:message>
+  <wsdl:message name="LogOnSoapOut">
+    <wsdl:part name="parameters" element="tns:LogOnResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOptionsByProfileSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOptionsByProfile" />
+  </wsdl:message>
+  <wsdl:message name="GetOptionsByProfileSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOptionsByProfileResponse" />
+  </wsdl:message>
+  <wsdl:message name="LogOnHttpGetIn">
+    <wsdl:part name="Login" type="s:string" />
+    <wsdl:part name="Password" type="s:string" />
+    <wsdl:part name="ValidaAD" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LogOnHttpGetOut">
+    <wsdl:part name="Body" element="tns:RespuestaBE" />
+  </wsdl:message>
+  <wsdl:message name="GetOptionsByProfileHttpGetIn">
+    <wsdl:part name="IdSistema" type="s:string" />
+    <wsdl:part name="IdUsuario" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOptionsByProfileHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="LogOnHttpPostIn">
+    <wsdl:part name="Login" type="s:string" />
+    <wsdl:part name="Password" type="s:string" />
+    <wsdl:part name="ValidaAD" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LogOnHttpPostOut">
+    <wsdl:part name="Body" element="tns:RespuestaBE" />
+  </wsdl:message>
+  <wsdl:message name="GetOptionsByProfileHttpPostIn">
+    <wsdl:part name="IdSistema" type="s:string" />
+    <wsdl:part name="IdUsuario" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOptionsByProfileHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:portType name="AutenticarSoap">
+    <wsdl:operation name="LogOn">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Permite la autenticacion en un sistema ingreando  Login, Paswword y el didel sistema al cual se desea ingrear</wsdl:documentation>
+      <wsdl:input message="tns:LogOnSoapIn" />
+      <wsdl:output message="tns:LogOnSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOptionsByProfile">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtiene todas las opciones de menu como perfil tenga el usuario</wsdl:documentation>
+      <wsdl:input message="tns:GetOptionsByProfileSoapIn" />
+      <wsdl:output message="tns:GetOptionsByProfileSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="AutenticarHttpGet">
+    <wsdl:operation name="LogOn">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Permite la autenticacion en un sistema ingreando  Login, Paswword y el didel sistema al cual se desea ingrear</wsdl:documentation>
+      <wsdl:input message="tns:LogOnHttpGetIn" />
+      <wsdl:output message="tns:LogOnHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOptionsByProfile">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtiene todas las opciones de menu como perfil tenga el usuario</wsdl:documentation>
+      <wsdl:input message="tns:GetOptionsByProfileHttpGetIn" />
+      <wsdl:output message="tns:GetOptionsByProfileHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="AutenticarHttpPost">
+    <wsdl:operation name="LogOn">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Permite la autenticacion en un sistema ingreando  Login, Paswword y el didel sistema al cual se desea ingrear</wsdl:documentation>
+      <wsdl:input message="tns:LogOnHttpPostIn" />
+      <wsdl:output message="tns:LogOnHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOptionsByProfile">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Obtiene todas las opciones de menu como perfil tenga el usuario</wsdl:documentation>
+      <wsdl:input message="tns:GetOptionsByProfileHttpPostIn" />
+      <wsdl:output message="tns:GetOptionsByProfileHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AutenticarSoap" type="tns:AutenticarSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="LogOn">
+      <soap:operation soapAction="http://www.sima.com.pe/LogOn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOptionsByProfile">
+      <soap:operation soapAction="http://www.sima.com.pe/GetOptionsByProfile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AutenticarSoap12" type="tns:AutenticarSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="LogOn">
+      <soap12:operation soapAction="http://www.sima.com.pe/LogOn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOptionsByProfile">
+      <soap12:operation soapAction="http://www.sima.com.pe/GetOptionsByProfile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AutenticarHttpGet" type="tns:AutenticarHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="LogOn">
+      <http:operation location="/LogOn" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOptionsByProfile">
+      <http:operation location="/GetOptionsByProfile" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AutenticarHttpPost" type="tns:AutenticarHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="LogOn">
+      <http:operation location="/LogOn" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOptionsByProfile">
+      <http:operation location="/GetOptionsByProfile" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Autenticar">
+    <wsdl:port name="AutenticarSoap" binding="tns:AutenticarSoap">
+      <soap:address location="http://10.10.90.15/ws_interfaces_des/SIMA/Autenticacion/Autenticar.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AutenticarSoap12" binding="tns:AutenticarSoap12">
+      <soap12:address location="http://10.10.90.15/ws_interfaces_des/SIMA/Autenticacion/Autenticar.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AutenticarHttpGet" binding="tns:AutenticarHttpGet">
+      <http:address location="http://10.10.90.15/ws_interfaces_des/SIMA/Autenticacion/Autenticar.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AutenticarHttpPost" binding="tns:AutenticarHttpPost">
+      <http:address location="http://10.10.90.15/ws_interfaces_des/SIMA/Autenticacion/Autenticar.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

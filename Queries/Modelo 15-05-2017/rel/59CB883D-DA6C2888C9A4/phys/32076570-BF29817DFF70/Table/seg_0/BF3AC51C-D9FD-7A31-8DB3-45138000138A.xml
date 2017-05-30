@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_ACC_PERFIL" directorySegmentName="seg_0" id="BF3AC51C-D9FD-7A31-8DB3-45138000138A">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:36 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<schemaObject>D2B5CE47-766E-FD80-EAB0-56EBB3B6FE46</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0FA437CE-F46A-0DEF-F852-5E15D8845941</segment>
+<tableSpace>6E584503-F004-3104-7200-BC3DD2842C18</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_PERFIL" id="75221581-3A8A-91E6-B3F8-432532077949">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACCESO" id="7AF88DB8-5B48-5151-2710-F21BAA780976">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="T_ACC_PERFIL_T_ACCESO_FK" id="58839367-C27F-5B80-D0C4-7350DCF1C741">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="T_ACC_PERFIL_T_PERFILES_FK" id="A996F7D7-C2E2-8F87-2078-BF1955EFC590">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

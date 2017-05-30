@@ -1,0 +1,118 @@
+﻿@using Entidades;
+@model DetalleVersion
+@if (Session["usuario"] != null)
+{
+<div class="row">
+@if (Model != null)
+{
+    if (Model.observaciones != null)
+    {
+        if (Model.observaciones.Count > 0)
+        {
+            <div class="col-sm-12">        
+                <table class="table table-hover">            
+                    <tr>
+                        <td><b>Usuario</b></td>
+                        <td><b>Observación</b></td>
+                        <td></td>
+                    </tr>
+                    @foreach (var obs in Model.observaciones)
+                    {
+                        <tr>
+                            <td>@obs.usuarioReg.Nombres</td>
+                            <td>@obs.observacion</td>                    
+                            <td>                    
+                                @if (obs.isResuelta)
+                                {
+
+                                    <button type="button" onclick="MostrarResolucionObs(@obs.idObservacion)" class="btn btn-info btn-xs">
+                                        Observación Resuelta
+                                    </button>
+                                }
+                                else
+                                {
+                                    <button type="button" onclick="MostrarResolverObservacion(@obs.idObservacion);" class="btn btn-success btn-xs">
+                                        Resolver
+                                    </button>
+                                }
+</td>                
+                        </tr>            
+                    }
+                </table>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="col-sm-12">
+            <center><h5>No hay Observaciones</h5></center>
+        </div>
+    }
+}
+else
+{
+    <div class="col-sm-12">
+        <center><h5>No hay Observaciones</h5></center>
+    </div>
+}
+    
+</div>
+
+<div class="col-sm-12" style="text-align: right;">
+    <button type="button" class="btn btn-info btn-xs" onclick="MostrarObservarDetalle(@Model.idDetalle)">Observar</button>
+    <button type="button" value="Cancelar" onclick="OcultarDetalle('@Model.idDetalle')" class="btn btn-danger btn-xs">Cancelar</button>
+</div>
+
+@*
+
+<!-- Modal Nueva Observacion-->
+<div class="modal fade" id="ObservacionRes" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <center><h4 class="modal-title">Resolucion de Observación</h4></center>
+            </div>
+            <div class="modal-body">
+                <center><strong>Observación</strong></center><br />
+                <center>
+                    <div class="row">
+                        <p id="ObservacionResAnt"></p>
+                    </div>
+                </center><br /><br />
+                <center><strong>Resolución</strong></center><br />
+                <center>
+                    <div class="row">
+                        <p id="ObserResolucion"></p>
+                        </div>
+                </center>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" >Aceptar</button>
+            </div>
+        </div>
+
+    </div>
+</div>*@
+}
+else
+{
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="form-group">
+                <center>
+                    <h3>Su sesión ha expirado, ingrese nuevamente.</h3>
+                </center>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+            </div>
+
+        </div>
+    </div>
+
+}

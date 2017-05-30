@@ -1,0 +1,264 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="057E586F-9A07-ECC7-7C89-0A559ADEB44E" name="T_DET_VERSION">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:29:55 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DETALLE" id="350C6142-8291-2D93-A4D2-7788C133DF95">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:38:53 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_MATERIAL" id="3B6A45ED-FD35-664E-3DE3-EB439AC2F5A0">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:38:53 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANT_SOLIC" id="6874EA5E-AC98-F0AC-483D-0388B2F16F68">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:38:53 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,18,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO_UNI_SOLIC" id="69261E23-2A27-CC04-024D-2BB33BB81C00">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:38:53 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,18,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CRITICIDAD" id="53E844DB-C38E-2FC0-89F1-F5E66F276822">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:38:53 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL_SOLIC" id="9EC0F90C-4F78-F940-8BE6-8B5636761145">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:38:53 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,18,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="27F32F06-2F1A-2ED8-8F2D-46F69C935E25">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:38:53 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LARGO" id="32A81B1D-A418-EDAC-5C68-D74C6D2BFD1E">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:38:53 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,18,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANCHO" id="3A1371B5-902C-E968-C326-3821DD4A6E03">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:38:53 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,18,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALTO" id="93359FAC-03CB-F60A-E473-5436E5823CFE">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:38:53 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,18,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUSTENTO" id="F408F133-94EF-ADBC-3CC3-E512B8E3631A">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:38:53 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNID_SOLI" id="B491B72F-71E0-DCD5-9795-D0E66366980C">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:38:53 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DET_V_FEC_REG" id="93E76F62-8127-9F07-2429-161795092CF8">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:41:35 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DET_V_ULT_FEC" id="40A8D1C3-FE5C-147F-EA6F-6EEA4655A132">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:41:35 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DET_V_USR_REG" id="AC233501-FF3F-4FA8-A17B-224B029899C7">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:41:35 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DET_V_ULT_USR" id="ECE9E3BB-EFB3-43F1-7980-98031331CD62">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:41:35 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PRIORIDAD" id="088142CA-D582-3308-4D87-33FA068D8738">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 00:05:58 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9847874-6DC9-6034-A446-FB4A9BAC766C" referredColumn="E08EAD8C-65E3-A2CF-1540-597E0C6128BD"/>
+</associations>
+</Column>
+<Column name="ID_VERSION" id="ED9500F6-FC36-5BC2-1958-E01BE3D95FEC">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 00:33:00 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C63440D-9400-6635-A4B8-4A89F1AA0DA5" referredColumn="1F0A15FA-CC68-6B86-63AD-8ED78E792576"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="387DADD6-413C-67A9-8B07-C02E03475409" name="T_DETALLE_VERSION_PK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:41:35 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="350C6142-8291-2D93-A4D2-7788C133DF95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA479818-7595-8899-1E31-34154DAC1556" name="T_DET_VSN_T_PRIORIDAD_FK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 00:06:20 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="088142CA-D582-3308-4D87-33FA068D8738"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D056573-76DC-1FAC-956C-9E66284820AE" name="T_DET_VERSION_T_VERSION_FK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 00:33:32 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED9500F6-FC36-5BC2-1958-E01BE3D95FEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

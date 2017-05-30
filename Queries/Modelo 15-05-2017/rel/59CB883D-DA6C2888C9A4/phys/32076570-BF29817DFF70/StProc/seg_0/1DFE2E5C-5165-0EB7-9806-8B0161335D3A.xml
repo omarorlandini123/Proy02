@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="RESOLVER_OBS_DET" directorySegmentName="seg_0" id="1DFE2E5C-5165-0EB7-9806-8B0161335D3A">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>RESOLVER_OBS_DET</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:38 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<owner>AE2292FC-43E2-FF51-8677-819EDD136431</owner>
+<source>CREATE OR REPLACE PROCEDURE CONSULTOR3.RESOLVER_OBS_DET (&lt;br/&gt;VAR_ID_OBS IN NUMBER,&lt;br/&gt;VAR_OBSERVACION IN VARCHAR2,&lt;br/&gt;VAR_USUREG IN VARCHAR2,&lt;br/&gt;CUR_RPTA OUT sys_refcursor)AS&lt;br/&gt;BEGIN&lt;br/&gt;	&lt;br/&gt;    SAVEPOINT obtenerResultados;&lt;br/&gt;	&lt;br/&gt;	UPDATE T_OBSERVACIONES&lt;br/&gt;	SET OBS_RES=VAR_OBSERVACION,&lt;br/&gt;	OBS_FEC_RES=SYSDATE,&lt;br/&gt;	OBS_USR_RES=VAR_USUREG&lt;br/&gt;	WHERE ID_OBSERVACIONES=VAR_ID_OBS;&lt;br/&gt;&lt;br/&gt;	OPEN CUR_RPTA FOR&lt;br/&gt;	SELECT 1 AS RPTA FROM DUAL;&lt;br/&gt;	&lt;br/&gt;EXCEPTION &lt;br/&gt;        WHEN OTHERS THEN&lt;br/&gt;&lt;br/&gt;            ROLLBACK TO obtenerResultados;&lt;br/&gt;            RAISE;&lt;br/&gt;END;</source>
+<body>CREATE OR REPLACE PROCEDURE CONSULTOR3.RESOLVER_OBS_DET (&lt;br/&gt;VAR_ID_OBS IN NUMBER,&lt;br/&gt;VAR_OBSERVACION IN VARCHAR2,&lt;br/&gt;VAR_USUREG IN VARCHAR2,&lt;br/&gt;CUR_RPTA OUT sys_refcursor)AS&lt;br/&gt;BEGIN&lt;br/&gt;	&lt;br/&gt;    SAVEPOINT obtenerResultados;&lt;br/&gt;	&lt;br/&gt;	UPDATE T_OBSERVACIONES&lt;br/&gt;	SET OBS_RES=VAR_OBSERVACION,&lt;br/&gt;	OBS_FEC_RES=SYSDATE,&lt;br/&gt;	OBS_USR_RES=VAR_USUREG&lt;br/&gt;	WHERE ID_OBSERVACIONES=VAR_ID_OBS;&lt;br/&gt;&lt;br/&gt;	OPEN CUR_RPTA FOR&lt;br/&gt;	SELECT 1 AS RPTA FROM DUAL;&lt;br/&gt;	&lt;br/&gt;EXCEPTION &lt;br/&gt;        WHEN OTHERS THEN&lt;br/&gt;&lt;br/&gt;            ROLLBACK TO obtenerResultados;&lt;br/&gt;            RAISE;&lt;br/&gt;END;</body>
+</StoredProcedureOraclev10g>

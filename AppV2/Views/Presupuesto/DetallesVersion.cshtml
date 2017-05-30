@@ -1,0 +1,84 @@
+﻿@model IEnumerable<Entidades.DetalleVersion>
+@if (Session["usuario"] != null)
+{
+<div class="col-sm-12">
+    <table class="table table-hover">
+        <tr>
+            <td><b>#</b></td>
+            <td><b>Código</b></td>
+            <td><b>Descripción</b></td>
+            <td><b>Unid.</b></td>
+            <td><b>Precio Unit.</b></td>
+            <td><b>Cantidad</b></td>
+            <td><b>Precio</b></td>
+            <td></td>
+        </tr>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                var claseFila = "";
+                if (item.estado == Entidades.Aprobacion.estados.Aprobado)
+                {
+                    claseFila = "success";
+                }
+                else if (item.estado == Entidades.Aprobacion.estados.Desaprobado)
+                {
+                    claseFila = "danger";
+                }
+                <tr class="@claseFila">
+                    <td>@item.idDetalle</td>
+                    <td>@Html.DisplayFor(modelItem => item.mat.codProducto)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NombreMaterialSoli)</td>
+                    <td>@Html.DisplayFor(modelItem => item.uniSoli)</td>
+                    <td>@Html.DisplayFor(modelItem => item.precioSoli)</td>
+                    <td>@Html.DisplayFor(modelItem => item.cantidadSoli)</td>
+                    <td>@Html.DisplayFor(modelItem => item.totalSoli)</td>
+                    <td>
+                        <button type="button" class="btn btn-success btn-xs" onclick="AprobarDetalle(@item.idDetalle)">Aprobar</button>
+                        <button type="button" class="btn btn-warning btn-xs" onclick="ExpandirDetalle('@item.idDetalle')">Editar</button>
+                        <button type="button" class="btn btn-primary btn-xs" onclick="ExpandirObservaciones('@item.idDetalle')">Obser</button>
+                        <button type="button" class="btn btn-danger btn-xs" onclick="MostrarEliminarDetalle('@item.idDetalle')">Eliminar</button>
+
+                    </td>
+                </tr>
+                <tr style="display:none;" id="DETALLE_@item.idDetalle">
+                    <td colspan="8">
+                        <div class="col-sm-12" id="DETALLEDIV_@item.idDetalle">
+
+                        </div>
+
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="8"> <center>No Existen ítems registrados </center></td>
+            </tr>
+        }
+
+
+    </table>
+</div>
+}
+else
+{
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="form-group">
+                <center>
+                    <h3>Su sesión ha expirado, ingrese nuevamente.</h3>
+                </center>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+            </div>
+
+        </div>
+    </div>
+
+}

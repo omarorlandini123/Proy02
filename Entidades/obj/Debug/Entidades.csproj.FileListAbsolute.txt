@@ -1,0 +1,24 @@
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\Entidades\bin\Debug\Entidades.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\Entidades\bin\Debug\Entidades.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\Entidades\obj\Debug\Entidades.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\Entidades\obj\Debug\Entidades.pdb
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\Entidades\bin\Debug\Entidades.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\Entidades\bin\Debug\Entidades.pdb
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\Entidades\obj\Debug\Entidades.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\Entidades\obj\Debug\Entidades.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Entidades\bin\Debug\Entidades.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Entidades\bin\Debug\Entidades.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Entidades\obj\Debug\Entidades.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Entidades\obj\Debug\Entidades.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\Entidades\obj\Debug\Entidades.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\Entidades\obj\Debug\Entidades.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\Entidades\bin\Debug\Entidades.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\Entidades\bin\Debug\Entidades.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Presupuestos\Proy01\Entidades\bin\Debug\Entidades.dll
+D:\Presupuestos\Proy01\Entidades\bin\Debug\Entidades.pdb
+D:\Presupuestos\Proy01\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Presupuestos\Proy01\Entidades\obj\Debug\Entidades.dll
+D:\Presupuestos\Proy01\Entidades\obj\Debug\Entidades.pdb

@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="GET_ARCHIVOS_DETALLE" directorySegmentName="seg_0" id="C042AD40-ECD6-0A50-0A58-A63B5FB2DF1D">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>GET_ARCHIVOS_DETALLE</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:38 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<owner>AE2292FC-43E2-FF51-8677-819EDD136431</owner>
+<source>CREATE OR REPLACE PROCEDURE CONSULTOR3.GET_ARCHIVOS_DETALLE (&lt;br/&gt;VAR_ID_DET_VERSION IN NUMBER,&lt;br/&gt;CUR_RPTA OUT sys_refcursor)AS&lt;br/&gt;ID_ARCHIVO_INS NUMBER;&lt;br/&gt;BEGIN&lt;br/&gt;	&lt;br/&gt;    SAVEPOINT obtenerResultados;&lt;br/&gt;	&lt;br/&gt;	OPEN CUR_RPTA FOR&lt;br/&gt;    select A.ID_ARCHIVO,A.NOMB_ARCHIVO,A.TIPO_ARCHIVO,A.RUTA_ARCHIVO,A.ARCH_FEC_REG,A.ARCH_USR_REG &lt;br/&gt;    from T_ARCHIVO A &lt;br/&gt;	INNER JOIN T_DET_ARCHIVO B ON A.ID_ARCHIVO=B.ID_ARCHIVO &lt;br/&gt;	WHERE ID_DETALLE=VAR_ID_DET_VERSION&lt;br/&gt;	ORDER BY A.ARCH_FEC_REG DESC;&lt;br/&gt;	&lt;br/&gt;EXCEPTION &lt;br/&gt;        WHEN OTHERS THEN&lt;br/&gt;&lt;br/&gt;            ROLLBACK TO obtenerResultados;&lt;br/&gt;            RAISE;&lt;br/&gt;END;</source>
+<body>CREATE OR REPLACE PROCEDURE CONSULTOR3.GET_ARCHIVOS_DETALLE (&lt;br/&gt;VAR_ID_DET_VERSION IN NUMBER,&lt;br/&gt;CUR_RPTA OUT sys_refcursor)AS&lt;br/&gt;ID_ARCHIVO_INS NUMBER;&lt;br/&gt;BEGIN&lt;br/&gt;	&lt;br/&gt;    SAVEPOINT obtenerResultados;&lt;br/&gt;	&lt;br/&gt;	OPEN CUR_RPTA FOR&lt;br/&gt;    select A.ID_ARCHIVO,A.NOMB_ARCHIVO,A.TIPO_ARCHIVO,A.RUTA_ARCHIVO,A.ARCH_FEC_REG,A.ARCH_USR_REG &lt;br/&gt;    from T_ARCHIVO A &lt;br/&gt;	INNER JOIN T_DET_ARCHIVO B ON A.ID_ARCHIVO=B.ID_ARCHIVO &lt;br/&gt;	WHERE ID_DETALLE=VAR_ID_DET_VERSION&lt;br/&gt;	ORDER BY A.ARCH_FEC_REG DESC;&lt;br/&gt;	&lt;br/&gt;EXCEPTION &lt;br/&gt;        WHEN OTHERS THEN&lt;br/&gt;&lt;br/&gt;            ROLLBACK TO obtenerResultados;&lt;br/&gt;            RAISE;&lt;br/&gt;END;</body>
+</StoredProcedureOraclev10g>

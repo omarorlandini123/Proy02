@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo back" id="D5A0745B-8100-CA07-993B-38E251F54EAB" version="3.5">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:31:38 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D5A0745B-8100-CA07-993B-38E251F54EAB</designId>
+</OSDM_Design>

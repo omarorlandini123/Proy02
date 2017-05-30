@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E418C6D8-4667-7303-5092-84B8D7280CD5" schemaObject="D2B5CE47-766E-FD80-EAB0-56EBB3B6FE46" name="T_ACCESO">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_ACCESO</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:36 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACCESO" id="59983AAA-9C6A-9687-D9F5-CE4D62506B6F">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_ACCESO</sourceObjSchema>
+<sourceObjName>ACCESO</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESC" id="79F38F68-A6FA-A8D5-A2CF-F94DE5A79E60">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_ACCESO</sourceObjSchema>
+<sourceObjName>DESC</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D47C2FD9-19C0-1E71-0613-0154968141D5" name="T_ACCESO_PK">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_ACCESO_PK</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59983AAA-9C6A-9687-D9F5-CE4D62506B6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5993894A-947E-4040-8558-81DFB62581F5" schemaObject="D2B5CE47-766E-FD80-EAB0-56EBB3B6FE46" name="T_ACCESO_PK">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_ACCESO_PK</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59983AAA-9C6A-9687-D9F5-CE4D62506B6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

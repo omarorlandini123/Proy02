@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://Material/" targetNamespace="http://Material/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="getMaterial" type="tns:getMaterial" />
+  <xs:element name="getMaterialResponse" type="tns:getMaterialResponse" />
+  <xs:element name="getServicio" type="tns:getServicio" />
+  <xs:element name="getServicioResponse" type="tns:getServicioResponse" />
+  <xs:complexType name="getServicio">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="cond" type="xs:string" />
+      <xs:element minOccurs="0" name="porCod" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getServicioResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:material" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="material">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="codigoMaterial" type="xs:string" />
+      <xs:element minOccurs="0" name="descMaterial" type="xs:string" />
+      <xs:element name="precioMaterial" type="xs:double" />
+      <xs:element minOccurs="0" name="subclase" type="tns:subClase" />
+      <xs:element minOccurs="0" name="unidad" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="subClase">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="clase" type="tns:clase" />
+      <xs:element name="codSubClase" type="xs:int" />
+      <xs:element minOccurs="0" name="desSubClase" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="clase">
+    <xs:sequence>
+      <xs:element name="codClase" type="xs:int" />
+      <xs:element minOccurs="0" name="desClase" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getMaterial">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="cond" type="xs:string" />
+      <xs:element minOccurs="0" name="porCod" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getMaterialResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:material" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

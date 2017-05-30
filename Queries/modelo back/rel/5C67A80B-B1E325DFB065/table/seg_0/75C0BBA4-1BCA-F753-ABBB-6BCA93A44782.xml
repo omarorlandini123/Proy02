@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75C0BBA4-1BCA-F753-ABBB-6BCA93A44782" name="T_DET_PRESUP">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:11:52 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRESUPUESTO_TIPO" id="5D6F22EF-A4E8-C58B-1B46-A41A4AF9F1CA">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:19:25 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PRESUPUESTO" id="9D29CD41-55D6-4655-6A84-929A26823265">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:19:25 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66AC851F-AA30-E344-81AA-A340F41D73C2" referredColumn="CB8E53AD-B427-6E3F-B737-234EC3B3DD6B"/>
+</associations>
+</Column>
+<Column name="ID_TIPO" id="76B3FF1F-D2AD-61EB-DB41-EB09D6FE0CBE">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:19:25 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EFC951F-AE96-C940-39E9-DDDD27F61F75" referredColumn="68DAC435-9F8A-C057-5D45-05E6EAAE61BE"/>
+</associations>
+</Column>
+<Column name="PRE_T_FECHA_REG" id="D619252C-2AA5-DF39-0C1E-23379798D65F">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:19:25 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRE_T_ULT_MODIF_FEC" id="67AC675F-E925-6700-5842-C523102E91A7">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:19:25 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRE_T_MODIF_USR" id="A69A9420-0318-B6D6-EF5B-D6264C6FECCC">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:19:25 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRE_T_FECHA_VAL_INI" id="027E5994-CD1E-D84C-1FF2-20AC58D6FD3B">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:19:25 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRE_T_FECHA_VAL_FIN" id="0C21D2CF-321F-C495-5C4D-B58918717F22">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:19:25 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRE_T_EST_ACTUAL" id="D2933485-3986-41A4-4EB8-DF5621B08BE9">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:19:25 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F02531A0-71FC-39BE-4586-877CA73045D1" name="T_PRESUPUESTO_TIPO_PK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:20:34 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D6F22EF-A4E8-C58B-1B46-A41A4AF9F1CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65BE2061-BA48-5A7C-B600-FA0B726CCDDE" name="T_PRSUP_TIPO_T_PRESUP_FK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 00:12:29 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D29CD41-55D6-4655-6A84-929A26823265"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40E96BC5-74FA-BB2E-02E3-601E5E8D670B" name="T_PRSUP_TIPO_T_TIPPRE_FK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 00:13:02 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76B3FF1F-D2AD-61EB-DB41-EB09D6FE0CBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

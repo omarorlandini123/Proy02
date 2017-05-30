@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DataAccess.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DataAccess_ServicioMateriales_Material" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.10.108.56:8080/ServiceMateriales/Material</Value>
+    </Setting>
+    <Setting Name="DataAccess_AutenticarService_Autenticar" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.10.90.15/ws_interfaces_des/SIMA/Autenticacion/Autenticar.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

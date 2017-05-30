@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D46C56AD-9932-3B1E-6A14-BA3C9F740539" name="T_ACC_PERFIL">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:48:40 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PERFIL" id="B393A1A7-43E8-15D1-640D-2CD64BA422AE">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:48:57 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17EF75C9-25AA-6E0A-E12A-8D93FA1AF6EC" referredColumn="C4D31D14-3E3B-C2B7-7195-633BEB7C1973"/>
+</associations>
+</Column>
+<Column name="ACCESO" id="C6B15071-6B4E-2A3A-A185-CC398AFE8538">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:49:08 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="535CEB51-AC49-90D1-F5DC-C724043401F4" referredColumn="9F1A55FB-38A9-DE0A-4CDE-EDBCD2DADAD1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F721903-BAE9-9B0F-536B-0B0119D7C2ED" name="T_ACC_PERFIL_T_ACCESO_FK">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:49:29 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6B15071-6B4E-2A3A-A185-CC398AFE8538"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="143CEB43-B794-E0B9-E95F-4887AE31679C" name="T_ACC_PERFIL_T_PERFILES_FK">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:49:59 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B393A1A7-43E8-15D1-640D-2CD64BA422AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

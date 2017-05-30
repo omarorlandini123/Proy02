@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_NIVEL_APROB" directorySegmentName="seg_0" id="19082102-B964-510B-7F65-D36BDFFB2979">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:36 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<schemaObject>D2B5CE47-766E-FD80-EAB0-56EBB3B6FE46</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0FA437CE-F46A-0DEF-F852-5E15D8845941</segment>
+<tableSpace>6E584503-F004-3104-7200-BC3DD2842C18</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="N_APROB_NOMBRE" id="3CB4B06E-5B6E-9589-203B-2BE612672B9A">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECH_REG" id="50B35383-8957-0EBF-6003-861C8A990C61">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_NIVEL" id="94CAA4C2-38BC-A581-0ACC-319A7F6AF88E">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USR_REG" id="B229879E-CF07-ADCA-C8ED-1770B20FC0EF">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="C708D6E1-7FA3-AC55-C76E-F1D927883C9B">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_NIVEL_APROBACION_PK" id="5A0BBB48-FB4C-9F2F-6CA8-2ED618830787">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<schemaObject>D2B5CE47-766E-FD80-EAB0-56EBB3B6FE46</schemaObject>
+<segment>4793A8FE-9A7E-0E49-203E-A7590C2F8E56</segment>
+<tableSpace>6E584503-F004-3104-7200-BC3DD2842C18</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_NIVEL_APROBACION_PK" id="3824ED0E-E128-A50E-DDDD-D383E2EEB9BA">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<segment>4793A8FE-9A7E-0E49-203E-A7590C2F8E56</segment>
+<tableSpace>6E584503-F004-3104-7200-BC3DD2842C18</tableSpace>
+<existingIndex>5A0BBB48-FB4C-9F2F-6CA8-2ED618830787</existingIndex>
+<indexSegment>4793A8FE-9A7E-0E49-203E-A7590C2F8E56</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="GET_MESES_E_S_DETALLE" directorySegmentName="seg_0" id="0FF5F9D6-1F78-8D9D-F012-D4440A49D966">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>GET_MESES_E_S_DETALLE</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:38 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<owner>AE2292FC-43E2-FF51-8677-819EDD136431</owner>
+<source>CREATE OR REPLACE PROCEDURE CONSULTOR3.GET_MESES_E_S_DETALLE (&lt;br/&gt;VAR_ID_DETALLE IN NUMBER,&lt;br/&gt;VAR_ID_TIPO IN NUMBER,&lt;br/&gt;CUR_RPTA OUT sys_refcursor)IS&lt;br/&gt;BEGIN&lt;br/&gt;&lt;br/&gt;    SAVEPOINT obtenerResultados;&lt;br/&gt;&lt;br/&gt;    OPEN CUR_RPTA FOR&lt;br/&gt;	SELECT &lt;br/&gt;	ID_MES_ENTREGA, &lt;br/&gt;	MES_ENT_USR_REG, &lt;br/&gt;	ID_DETALLE, &lt;br/&gt;	MES, &lt;br/&gt;	TIPO, &lt;br/&gt;	MES_ENT_FEC_REG &lt;br/&gt;	FROM T_MES_ENT_SOL WHERE ID_DETALLE=VAR_ID_DETALLE AND TIPO=VAR_ID_TIPO;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;EXCEPTION &lt;br/&gt;        WHEN OTHERS THEN&lt;br/&gt;&lt;br/&gt;            ROLLBACK TO obtenerResultados;&lt;br/&gt;            RAISE;&lt;br/&gt;END;</source>
+<body>CREATE OR REPLACE PROCEDURE CONSULTOR3.GET_MESES_E_S_DETALLE (&lt;br/&gt;VAR_ID_DETALLE IN NUMBER,&lt;br/&gt;VAR_ID_TIPO IN NUMBER,&lt;br/&gt;CUR_RPTA OUT sys_refcursor)IS&lt;br/&gt;BEGIN&lt;br/&gt;&lt;br/&gt;    SAVEPOINT obtenerResultados;&lt;br/&gt;&lt;br/&gt;    OPEN CUR_RPTA FOR&lt;br/&gt;	SELECT &lt;br/&gt;	ID_MES_ENTREGA, &lt;br/&gt;	MES_ENT_USR_REG, &lt;br/&gt;	ID_DETALLE, &lt;br/&gt;	MES, &lt;br/&gt;	TIPO, &lt;br/&gt;	MES_ENT_FEC_REG &lt;br/&gt;	FROM T_MES_ENT_SOL WHERE ID_DETALLE=VAR_ID_DETALLE AND TIPO=VAR_ID_TIPO;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;EXCEPTION &lt;br/&gt;        WHEN OTHERS THEN&lt;br/&gt;&lt;br/&gt;            ROLLBACK TO obtenerResultados;&lt;br/&gt;            RAISE;&lt;br/&gt;END;</body>
+</StoredProcedureOraclev10g>

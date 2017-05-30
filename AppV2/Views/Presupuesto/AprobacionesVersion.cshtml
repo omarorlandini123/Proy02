@@ -1,0 +1,128 @@
+﻿@using Entidades;
+@model Entidades.Version
+@if (Session["usuario"] != null)
+{
+@if (Model != null && Model.aprobaciones != null)
+{
+    <div class="modal-content">
+        <div class="panel-heading">
+            <button type="button" class="close" data-dismiss="modal" onclick="OcultarPanelAprobPresup()">&times;</button>
+            <h4>Aprobaciones de Version</h4>
+        </div>
+        <div class="modal-body">
+            <div class="form-group">
+                <table class="table">
+                    <tr>
+                        <th>
+                            Orden
+                        </th>
+                        <th>
+                            Usuario encargado
+                        </th>
+                        <th>
+                            Fecha Registro
+                        </th>
+                        <th>
+                            Usuario Registro
+                        </th>
+                        <th>
+                            Estado
+                        </th>
+
+                    </tr>
+
+                    @foreach (var item in Model.aprobaciones)
+                    {
+                        <tr>
+                            <td>
+                                <input type="hidden" id="idAprobacion" value="@item.idAprobacion" />
+                                @item.orden
+                            </td>
+                            <td>
+                                @item.usuarioApro.usuario
+                            </td>
+                            <td>
+                                @item.FechaReg.ToShortDateString()
+                            </td>
+                            <td>
+                                @item.usuarioReg.usuario
+                            </td>
+                            <td>
+                                <a href="javascript:VerDetalleAprobacion(@item.idAprobacion)">
+                                    @if (item.detalles != null)
+                                    {
+
+                                        if (item.detalles.Count > 0)
+                                        {
+
+                                            <b> @item.estado.ToString()</b>
+                                        }
+
+                                    }
+                                    else
+                                    {
+                                        <b>No verificado</b>
+
+                                    }
+                                </a>
+
+                            </td>
+
+
+                        </tr>
+                    }
+
+                </table>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Aceptar</button>
+                <button type="button" class="btn btn-info" onclick="NuevoAprobadorVersion(@Model.idVersion)">Agregar</button>
+            </div>
+
+        </div>
+    </div>
+}
+else
+{
+
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="form-group">
+                <center>
+                    <h3>No se han agregado responsables de aprobar este Presupuesto</h3>
+                </center>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Aceptar</button>
+                <button type="button" class="btn btn-info" onclick="NuevoAprobadorVersion(@Model.idVersion)">Agregar</button>
+            </div>
+
+        </div>
+    </div>
+}
+}
+else
+{
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="form-group">
+                <center>
+                    <h3>Su sesión ha expirado, ingrese nuevamente.</h3>
+                </center>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+            </div>
+
+        </div>
+    </div>
+
+}
+
+

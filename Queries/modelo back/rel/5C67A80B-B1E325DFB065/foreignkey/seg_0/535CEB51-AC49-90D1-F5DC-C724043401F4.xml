@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="535CEB51-AC49-90D1-F5DC-C724043401F4" containerWithKeyObject="D46C56AD-9932-3B1E-6A14-BA3C9F740539" localFKIndex="2F721903-BAE9-9B0F-536B-0B0119D7C2ED" name="T_ACC_PERFIL_T_ACCESO_FK">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:49:29 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<referredTableLongName>T_ACCESO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ECF060CF-3511-F635-AA94-88C85BE1B5BE</referredTableID>
+<keyObject>78A93271-6A30-D933-74C6-81723C780306</keyObject>
+<referredKeyID>78A93271-6A30-D933-74C6-81723C780306</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ACCESO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

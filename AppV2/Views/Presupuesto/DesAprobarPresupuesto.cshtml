@@ -1,0 +1,78 @@
+﻿@model int
+
+@if (Session["usuario"] != null)
+{
+
+@if (Model > 0)
+{
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="form-group">
+                <center>
+                    @switch (Model)
+                    {
+                        case 4:
+                            <h3>Se desaprobó correctamente el presupuesto</h3>
+                            break;
+                        case 5:
+                            <h3>Los usuarios de orden superior deben desaprobar primero este presupuesto.</h3>
+                            break;
+                        case 3:
+                            <h3>Ud. no puede aprobar este presupuesto</h3>
+                            break;
+                    }
+                    
+                </center>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Aceptar</button>
+            </div>
+
+        </div>
+    </div>
+}
+else
+{
+
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="form-group">
+                <center>
+                    <h3>No se pudo desaprobar el presupuesto</h3>
+                </center>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Aceptar</button>
+            </div>
+
+        </div>
+    </div>
+}
+}
+else
+{
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="form-group">
+                <center>
+                    <h3>Su sesión ha expirado, ingrese nuevamente.</h3>
+                </center>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+            </div>
+
+        </div>
+    </div>
+
+}
+
+
+
+

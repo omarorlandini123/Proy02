@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="T_APROB_PRESUP_AI" directorySegmentName="seg_0" id="B116DD37-7DCE-0FA0-5C72-1E6769BF28DD">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_APROB_PRESUP_AI</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:36 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<cache>20</cache>
+<incrementBy>1</incrementBy>
+<maxValue>999999999999999999999999999</maxValue>
+<minValue>1</minValue>
+<user>AE2292FC-43E2-FF51-8677-819EDD136431</user>
+</SequenceOraclev10g>

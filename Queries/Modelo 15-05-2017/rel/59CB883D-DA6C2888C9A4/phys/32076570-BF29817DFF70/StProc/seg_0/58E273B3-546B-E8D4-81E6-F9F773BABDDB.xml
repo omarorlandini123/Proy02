@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="GET_PRESUPUESTO" directorySegmentName="seg_0" id="58E273B3-546B-E8D4-81E6-F9F773BABDDB">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>GET_PRESUPUESTO</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:38 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<owner>AE2292FC-43E2-FF51-8677-819EDD136431</owner>
+<source>CREATE OR REPLACE PROCEDURE CONSULTOR3.GET_PRESUPUESTO (VAR_ID_PRESUPUESTO IN NUMBER,CUR_RPTA OUT sys_refcursor)IS&lt;br/&gt;BEGIN&lt;br/&gt;&lt;br/&gt;    SAVEPOINT obtenerResultados;&lt;br/&gt;&lt;br/&gt;    OPEN CUR_RPTA FOR&lt;br/&gt;    SELECT&lt;br/&gt;    id_presupuesto,&lt;br/&gt;    nomb_presup,&lt;br/&gt;    id_sede,&lt;br/&gt;    fecha_reg,&lt;br/&gt;    usuario_reg,&lt;br/&gt;    ult_modif_fec,&lt;br/&gt;    ult_modif_user,&lt;br/&gt;    fecha_val_ini,&lt;br/&gt;    fecha_val_fin,&lt;br/&gt;    est_actual&lt;br/&gt;    FROM&lt;br/&gt;    t_presup A where id_presupuesto=VAR_ID_PRESUPUESTO;&lt;br/&gt;&lt;br/&gt;    EXCEPTION &lt;br/&gt;        WHEN OTHERS THEN&lt;br/&gt;&lt;br/&gt;            ROLLBACK TO obtenerResultados;&lt;br/&gt;            RAISE;&lt;br/&gt;END;</source>
+<body>CREATE OR REPLACE PROCEDURE CONSULTOR3.GET_PRESUPUESTO (VAR_ID_PRESUPUESTO IN NUMBER,CUR_RPTA OUT sys_refcursor)IS&lt;br/&gt;BEGIN&lt;br/&gt;&lt;br/&gt;    SAVEPOINT obtenerResultados;&lt;br/&gt;&lt;br/&gt;    OPEN CUR_RPTA FOR&lt;br/&gt;    SELECT&lt;br/&gt;    id_presupuesto,&lt;br/&gt;    nomb_presup,&lt;br/&gt;    id_sede,&lt;br/&gt;    fecha_reg,&lt;br/&gt;    usuario_reg,&lt;br/&gt;    ult_modif_fec,&lt;br/&gt;    ult_modif_user,&lt;br/&gt;    fecha_val_ini,&lt;br/&gt;    fecha_val_fin,&lt;br/&gt;    est_actual&lt;br/&gt;    FROM&lt;br/&gt;    t_presup A where id_presupuesto=VAR_ID_PRESUPUESTO;&lt;br/&gt;&lt;br/&gt;    EXCEPTION &lt;br/&gt;        WHEN OTHERS THEN&lt;br/&gt;&lt;br/&gt;            ROLLBACK TO obtenerResultados;&lt;br/&gt;            RAISE;&lt;br/&gt;END;</body>
+</StoredProcedureOraclev10g>

@@ -1,0 +1,86 @@
+﻿@using Entidades;
+@model DetallePresupuesto
+@if (Session["usuario"] != null)
+{
+<div class="list-group">
+    @foreach (var item in Model.versiones)
+    {
+        var claseFila = "est-edicion";
+        if (item.estadoActual == Aprobacion.estados.Aprobado)
+        {
+            claseFila = "est-aprobado";
+        }
+        else if (item.estadoActual == Aprobacion.estados.Desaprobado)
+        {
+            claseFila = "est-desaprobado";
+        }
+        else if (item.estadoActual == Aprobacion.estados.Enviado)
+        {
+            claseFila = "est-enviado";
+        }
+
+
+        <div href="#" class="list-group-item @claseFila">
+            <div class="row">
+                <div class="col-sm-6 excesodiv">
+                    <a href="/Presupuesto/Detalle/@(item.idVersion)/1"><h4 class="list-group-item-heading"><span class="glyphicon glyphicon-info-sign color-indicador" aria-hidden="true">&nbsp</span>Version #@(item.numeroVersion)</h4></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="javascript:AprobarVersion(@item.idVersion)"><h5 class="list-group-item-heading">Aprobar</h5></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="javascript:RechazarVersion(@item.idVersion)"><h5 class="list-group-item-heading">Desaprobar</h5></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">Codigo:</div>
+                <div class="col-sm-3"> @item.area.codArea </div>
+                <div class="col-sm-3">Monto:</div>
+                @if (item.monto > 0)
+                {
+                    <div class="col-sm-3">S/ @string.Format("{0:0.00}", item.monto)</div>
+                }
+                else
+                {
+
+
+                    <div class="col-sm-3">S/ 0.00</div>
+                }
+            </div>
+            <div class="row">
+                <div class="col-sm-3">Ultima Modif:</div>
+                <div class="col-sm-3">@item.UltModifFec.ToShortDateString()</div>
+                <div class="col-sm-3">Desde:</div>
+                <div class="col-sm-3">@item.fechaValIni.ToShortDateString()</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">Verificado por:</div>
+                <div class="col-sm-3"><a href="javascript:MostrarAprobacionesVersion(@(item.idVersion))">Ver</a></div>
+                <div class="col-sm-3">Hasta:</div>
+                <div class="col-sm-3">@item.fechaValFin.ToShortDateString()</div>
+            </div>
+        </div>
+    }
+</div>
+}
+else
+{
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="form-group">
+                <center>
+                    <h3>Su sesión ha expirado, ingrese nuevamente.</h3>
+                </center>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+            </div>
+
+        </div>
+    </div>
+
+}
+
+

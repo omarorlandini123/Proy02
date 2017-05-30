@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Listar Presupuestos</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <br/>
+     <!-- Static navbar -->
+     <nav class="navbar navbar-inverse">
+       <div class="container-fluid">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <div class="row hidden-xs" style="width: 370px;">
+             <div class="col-md-3 hidden-sm">
+               <a href="#" class="thumbnail" style="margin-top: 20px;background-color: rgba(255, 255, 255, 0);border: 1px solid rgba(221, 221, 221, 0);">
+                 <img alt="40%x50%" style="width: 100%;" src="images/escudo.png">
+               </a>
+             </div>
+             <div class="col-md-9 " style=" margin-top: 20px;">
+               <div class="row">
+
+                <a class="navbar-brand" style="font-size: 30px;" href="#">
+                  SIMA<br>
+                <span style="font-size: 20px;">Sistema de Presupuestos</span>
+              </a>
+              </div>
+             </div>
+           </div>
+           <a class="navbar-brand hidden-sm hidden-md hidden-lg"  href="#">
+            Sistema de Presupuestos
+         </a>
+         </div>
+         <div id="navbar" class="navbar-collapse collapse" style="margin-top: 30px;">
+           <ul class="nav navbar-nav">
+             <li class="active"><a onclick="mostrarPresupuestosPorSede();" href="#">Presupuesto</a></li>
+           </ul>
+           <ul class="nav navbar-nav navbar-right">
+            <li class="hidden-xs hidden-sm" style="width: 130px;margin: -20px;">
+
+                <span class="glyphicon glyphicon-user" aria-hidden="true" style="font-size: 90px;"></span>
+              
+
+            </li>
+            <li class="hidden-xs" style="margin: -25px;">
+              <a href="../navbar-static-top/" style="padding: 5px;">Omar Orlandini Vera</a>  
+              <div class="dropdown clearfix" style="text-align: center;margin: 5px;"> 
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 1px;width: 120px;"> 
+                  Lima 
+                  <span class="caret"></span> 
+                </button> 
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1"> 
+                  <li><a href="#">Lima</a></li> 
+                  <li><a href="#">Chimbote</a></li>                   
+                </ul> 
+              </div>
+              <div class="dropdown clearfix" style="text-align: center;margin: 5px;"> 
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 1px;width: 120px;"> 
+                  Sistemas 
+                  <span class="caret"></span> 
+                </button> 
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1"> 
+                  <li><a href="#">Contabilidad</a></li> 
+                  <li><a href="#">Logística</a></li> 
+                </ul> 
+              </div>
+            </li>
+
+
+            <li class="hidden-sm hidden-md hidden-lg"><a href="#">Omar Orlandini Vera</a></li>
+            <li class="dropdown hidden-sm hidden-md hidden-lg">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lima <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Lima</a></li> 
+                <li><a href="#">Chimbote</a></li>  
+              </ul>
+            </li>
+            <li class="dropdown hidden-sm hidden-md hidden-lg">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sistemas <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Contabilidad</a></li> 
+                <li><a href="#">Logística</a></li>
+              </ul>
+            </li>
+            <li style="margin-left: 10px;">
+              <a href="../navbar-fixed-top/">Cerrar Sesión</a>
+            </li>
+           </ul>
+         </div>
+       </div><!--/.container-fluid -->
+     </nav>
+
+     <!-- Main component for a primary marketing message or call to action -->
+     <div class="panel panel-default">
+      <div class="panel-body" id="contenido-principal">
+
+      </div>
+    </div>
+
+   </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/funciones.js"></script>
+  </body>
+</html>

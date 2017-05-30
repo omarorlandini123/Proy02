@@ -1,0 +1,108 @@
+﻿@using Entidades;
+@model DetalleVersion
+@if (Session["usuario"] != null)
+{
+    <div class="modal-content">
+    <div class="modal-body">
+        <h4>Archivos</h4>
+        <div class="form-group">
+            <table class="table">
+                <tr>
+                    <th> Nombre </th>
+                    <th> Tipo </th>
+                    <th> Registro   </th>
+                    <th> Usuario Registro </th>
+                    <th></th>
+                </tr>
+                
+                @if (Model.archivosSustento != null)
+                {
+                    foreach (var item in Model.archivosSustento)
+                    {
+                    <tr>
+
+                        <td>
+                            @{
+                                string nombreArchivo = "";
+                                try
+                                {
+                                    nombreArchivo = item.nombre;
+                                    if (String.IsNullOrEmpty(nombreArchivo))
+                                    {
+                                        nombreArchivo = "Sin Nombre";
+                                    }
+                                }
+                                catch (Exception d)
+                                {
+
+                                    nombreArchivo = "Sin Nombre";
+                                }
+                            }
+                            @Html.ActionLink(nombreArchivo, "DescargarArchivo", new { idArchivo = item.idArchivo })
+
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.tipo)
+                        </td>
+                        <td>
+                            @item.fechaReg.ToShortDateString()
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.UsuarioReg.usuario)
+                        </td>
+                        <td>                         
+                             <button type="button" class="btn btn-danger btn-xs" onclick="EliminarArchivo(@item.idArchivo,@Model.idDetalle)">Eliminar</button>                            
+                        </td>
+                    </tr>
+                                    }
+                                }
+                                else
+                                {
+                    <tr>
+                        <td colspan="5">No hay archivos</td>
+                    </tr>
+
+                                }
+            </table>
+
+        </div>
+        <div class="form-inline">
+            <div class="form-group">
+                <input type="file" id="archivoSustentoNuevo" class="btn btn-info btn-xs" />
+
+            </div>
+            <div class="form-group">
+                <button style="margin-left: 10px;" type="button" class="btn btn-info btn-xs" onclick="subirArchivo(@Model.idDetalle)">Subir Archivo</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div class="col-sm-6 contenido-derecha">
+            <button type="button" class="btn btn-default"  data-dismiss="modal">Aceptar</button>
+        </div>
+
+    </div>
+</div>
+
+                                }
+                                else
+                                {
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="form-group">
+                                                <center>
+                                                    <h3>Su sesión ha expirado, ingrese nuevamente.</h3>
+                                                </center>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="col-sm-6 contenido-derecha">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                }
+
+

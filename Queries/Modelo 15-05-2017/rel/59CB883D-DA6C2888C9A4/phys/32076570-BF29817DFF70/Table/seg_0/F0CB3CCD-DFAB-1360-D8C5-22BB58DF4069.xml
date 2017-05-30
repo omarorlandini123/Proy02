@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_SEDE" directorySegmentName="seg_0" id="F0CB3CCD-DFAB-1360-D8C5-22BB58DF4069">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:36 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<schemaObject>D2B5CE47-766E-FD80-EAB0-56EBB3B6FE46</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BCE88453-1CC1-C31A-5316-0EC420CA1E0D</segment>
+<tableSpace>6E584503-F004-3104-7200-BC3DD2842C18</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_SEDE" id="DD8B923C-060C-F0E1-A6BE-B9AE00B95D32">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMB_SEDE" id="EDA4FC16-91FA-BEB4-AFC0-6F13B5FBAE36">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_SEDE_PK" id="95B74470-B0B2-1259-546D-2D3C45924F79">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<schemaObject>D2B5CE47-766E-FD80-EAB0-56EBB3B6FE46</schemaObject>
+<segment>9E9EB3FA-5ECE-D614-D568-4B3E2701B212</segment>
+<tableSpace>6E584503-F004-3104-7200-BC3DD2842C18</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_SEDE_PK" id="2EBF1B55-ACCE-8F02-650D-CBA85AD32951">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<segment>9E9EB3FA-5ECE-D614-D568-4B3E2701B212</segment>
+<tableSpace>6E584503-F004-3104-7200-BC3DD2842C18</tableSpace>
+<existingIndex>95B74470-B0B2-1259-546D-2D3C45924F79</existingIndex>
+<indexSegment>9E9EB3FA-5ECE-D614-D568-4B3E2701B212</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

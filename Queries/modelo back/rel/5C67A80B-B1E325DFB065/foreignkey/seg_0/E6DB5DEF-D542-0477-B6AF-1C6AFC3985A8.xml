@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<<<<<<< HEAD
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6DB5DEF-D542-0477-B6AF-1C6AFC3985A8" containerWithKeyObject="AA9B0581-4244-6D65-AA70-ABF74B4F443C" localFKIndex="E4D3A32F-553E-4814-F9A5-A34C2F717A9B" name="T_PERFIL_T_NIVEL_APROB_FK">
+=======
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6DB5DEF-D542-0477-B6AF-1C6AFC3985A8" containerWithKeyObject="AA9B0581-4244-6D65-AA70-ABF74B4F443C" localFKIndex="E4D3A32F-553E-4814-F9A5-A34C2F717A9B" name="T_PRF_NVL_APROB_T_NVL_APROB_FK">
+>>>>>>> origin/Queries
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 22:00:38 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0D0CF231-1B1D-5865-09B8-BFD750411829</referredTableID>
+<keyObject>46AFC968-8B6E-9E70-3B53-C5539AC3C9B7</keyObject>
+<referredKeyID>46AFC968-8B6E-9E70-3B53-C5539AC3C9B7</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

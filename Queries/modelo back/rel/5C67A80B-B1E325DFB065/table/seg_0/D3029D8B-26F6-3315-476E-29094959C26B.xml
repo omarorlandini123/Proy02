@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3029D8B-26F6-3315-476E-29094959C26B" name="T_PRIORIDAD">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:42:32 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRIORIDAD" id="E08EAD8C-65E3-A2CF-1540-597E0C6128BD">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:43:23 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PRIO" id="02FDF6A6-8E2A-8F7A-69C4-CCBBC546F1E1">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:43:23 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38AACA1B-123A-1F1B-D4E2-F10001B2783C" name="T_PRIORIDAD_PK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:43:31 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E08EAD8C-65E3-A2CF-1540-597E0C6128BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

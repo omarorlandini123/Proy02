@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_VERSION" directorySegmentName="seg_0" id="B35AB9FC-8771-44FC-BFC1-93064D55F16D">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:36 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<schemaObject>D2B5CE47-766E-FD80-EAB0-56EBB3B6FE46</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BCE88453-1CC1-C31A-5316-0EC420CA1E0D</segment>
+<tableSpace>6E584503-F004-3104-7200-BC3DD2842C18</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="V_FECHA_REG" id="0097DC86-4992-0477-703B-0438DA02C48A">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="V_FECHA_VAL_INI" id="1585BDAA-74E5-B096-CF25-D627E06EA5CB">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="V_FECHA_VAL_FIN" id="2E0E9EAB-A9DB-DCD6-4673-9C0964FDDB0D">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_VERSION" id="3731772C-BCB9-621A-1714-E34D916ED35A">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_DET_PRESUP" id="39113C35-CC03-A9AB-4F8B-598E3AE61C7D">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="V_USUARIO_REG" id="5C4FAF64-7D43-DA41-B673-7C0CD924C632">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NRO" id="69CB709A-FD73-476F-2983-8DAF3AC6B6F1">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="V_ULT_MOD_USR" id="AEBA3E92-F61E-734E-1228-19AD0E7AC885">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="V_ULT_MODIF_FEC" id="CCDA81F6-CD0B-9A75-1C46-763D3B5749CA">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EST_ACTUAL" id="F3807C56-E9A7-F7A3-37DE-214B0D9D817F">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_AREA" id="FD758A8F-F1F6-7C14-309A-11A4904E5EA9">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_VERSION_PK" id="8394121D-050F-1B4F-B567-679421EEE1C9">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<schemaObject>D2B5CE47-766E-FD80-EAB0-56EBB3B6FE46</schemaObject>
+<segment>9E9EB3FA-5ECE-D614-D568-4B3E2701B212</segment>
+<tableSpace>6E584503-F004-3104-7200-BC3DD2842C18</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="T_VERSION_T_PRESUP_TIPO_FK" id="4FB1257B-C667-2E3A-BCF4-C0EF88AAE632">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="T_VERSION_AREA" id="5445ABC8-E37E-9338-5E09-15D33114429E">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_VERSION_PK" id="55553AB0-DFEF-D2B7-C9B3-9C03233F2FA1">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<segment>9E9EB3FA-5ECE-D614-D568-4B3E2701B212</segment>
+<tableSpace>6E584503-F004-3104-7200-BC3DD2842C18</tableSpace>
+<existingIndex>8394121D-050F-1B4F-B567-679421EEE1C9</existingIndex>
+<indexSegment>9E9EB3FA-5ECE-D614-D568-4B3E2701B212</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

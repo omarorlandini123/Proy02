@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA9B0581-4244-6D65-AA70-ABF74B4F443C" name="T_PERFIL_NIVEL_APROB">
+<createdBy>Omar</createdBy>
+<createdTime>2017-04-25 17:06:38 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PERFIL" id="CF9450CA-F942-DBC6-2DEF-02D547C537E8">
+<createdBy>Omar</createdBy>
+<createdTime>2017-04-25 17:08:26 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="475852B9-DB75-15D7-28B9-B6EFA804833E" referredColumn="C4D31D14-3E3B-C2B7-7195-633BEB7C1973"/>
+</associations>
+</Column>
+<Column name="ID_NIVEL_APROB" id="27338CDD-D174-AF74-5BBD-B7EC8436EA37">
+<createdBy>Omar</createdBy>
+<createdTime>2017-04-25 17:08:38 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0C3B10A-F9C4-AC7D-A58A-4B6BF7E81829" referredColumn="AC19C15D-EC05-B490-3C0A-B79164D35895"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C9EA648-7C71-6C6B-A5F5-2A3D198FD5B0" name="T_PERFIL_NIVEL_PERFILES_FK">
+<createdBy>Omar</createdBy>
+<createdTime>2017-04-25 17:09:10 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF9450CA-F942-DBC6-2DEF-02D547C537E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDE81973-DCB7-C5AB-C44C-B6F8D1C6ED87" name="T_PERFIL_NIVEL_APROB_FK">
+<createdBy>Omar</createdBy>
+<createdTime>2017-04-25 17:09:29 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27338CDD-D174-AF74-5BBD-B7EC8436EA37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

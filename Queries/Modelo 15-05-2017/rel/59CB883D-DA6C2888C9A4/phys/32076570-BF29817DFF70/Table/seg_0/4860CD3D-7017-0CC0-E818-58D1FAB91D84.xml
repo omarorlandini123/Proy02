@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_MES_ENT_SOL" directorySegmentName="seg_0" id="4860CD3D-7017-0CC0-E818-58D1FAB91D84">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:36 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<schemaObject>D2B5CE47-766E-FD80-EAB0-56EBB3B6FE46</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BCE88453-1CC1-C31A-5316-0EC420CA1E0D</segment>
+<tableSpace>6E584503-F004-3104-7200-BC3DD2842C18</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MES" id="13B3CED8-E00E-EC8C-8396-2478BFD582D5">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_DETALLE" id="42322FCC-C3D6-68F1-4F62-BB3158917598">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MES_ENT_USR_REG" id="96874A81-A145-CDD9-43F6-32D53677EEC3">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO" id="A0653C04-6BCB-2E8D-6B5E-3FDE683A2E8D">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MES_ENT_FEC_REG" id="DDC3BD7D-BA44-AA3B-AEAF-137827495930">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_MES_ENTREGA" id="F544A6F5-953D-0A5C-6247-8046B3ED0267">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_MES_ENT_SOL_PK" id="18CE5C7B-EC42-D9A4-6F63-F740BDBD0023">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<schemaObject>D2B5CE47-766E-FD80-EAB0-56EBB3B6FE46</schemaObject>
+<segment>9E9EB3FA-5ECE-D614-D568-4B3E2701B212</segment>
+<tableSpace>6E584503-F004-3104-7200-BC3DD2842C18</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="T_MES_ENTSOL_T_DET_VSN_FK" id="23CA1065-41AE-DA88-AA0A-A3CD1D3D7F1C">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_MES_ENT_SOL_PK" id="814B3D87-169A-E9BB-D5B9-F7C04E6BB56F">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<segment>9E9EB3FA-5ECE-D614-D568-4B3E2701B212</segment>
+<tableSpace>6E584503-F004-3104-7200-BC3DD2842C18</tableSpace>
+<existingIndex>18CE5C7B-EC42-D9A4-6F63-F740BDBD0023</existingIndex>
+<indexSegment>9E9EB3FA-5ECE-D614-D568-4B3E2701B212</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

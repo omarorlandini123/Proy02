@@ -1,0 +1,85 @@
+﻿@using Entidades
+@model Presupuesto
+@if (Session["usuario"] != null)
+{
+@if (Model != null && !string.IsNullOrEmpty(Model.nombrePresupuesto))
+{
+    <center><h3>Presupuestos por Tipo <a href="#" onclick="verAreasDisponibles(@Model.idPresupuesto)"> <span class="glyphicon glyphicon-resize-vertical"></span> </a></h3></center>
+    <center><h4><strong>@Model.nombrePresupuesto</strong></h4></center>
+    <div class="list-group">
+        @if (Model.TiposPresupuestos != null)
+        {
+            foreach (DetallePresupuesto preArea in Model.TiposPresupuestos)
+            {
+
+                <div href="#" class="list-group-item est-edicion">
+                    <div class="row">
+                        <div class="col-sm-6 excesodiv">
+                            <a href="#" onclick="listarVersiones(@preArea.idPresupuestoTipo);">
+                                <h4 class="list-group-item-heading">
+                                    <span class="glyphicon glyphicon-info-sign color-indicador" aria-hidden="true">&nbsp</span>
+                                    @preArea.tipoPresupuesto.nombrePresupuesto
+                                </h4>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="#"><h5 class="list-group-item-heading">Ver Reporte</h5></a>
+                        </div>
+                        <div class="col-sm-3">
+                            @*<a href="#"><h5 class="list-group-item-heading">Desaprobar</h5></a>*@
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-sm-3 col-sm-offset-6">Monto:</div>
+                        @if (preArea.monto > 0)
+                        {
+                            <div class="col-sm-3">S/ @string.Format("{0:0.00}", preArea.monto)</div>
+                        }
+                        else
+                        {
+                            <div class="col-sm-3">S/ 0.00</div>
+                        }
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">Ultima Modif:</div>
+                        <div class="col-sm-3">@preArea.UltModifReg.ToShortDateString()</div>
+                        <div class="col-sm-3">Desde:</div>
+                        <div class="col-sm-3">@preArea.fechaValIni.ToShortDateString()</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">Verificado por:</div>
+                        <div class="col-sm-3"><a href="#">Ver</a></div>
+                        <div class="col-sm-3">Hasta:</div>
+                        <div class="col-sm-3">@preArea.fechaValFin.ToShortDateString()</div>
+                    </div>
+                </div>
+
+            }
+        }
+
+
+    </div>
+}
+}
+else
+{
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="form-group">
+                <center>
+                    <h3>Su sesión ha expirado, ingrese nuevamente.</h3>
+                </center>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+            </div>
+
+        </div>
+    </div>
+
+}
+
+

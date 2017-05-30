@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="T_ARCHIVO_AI_TRIG" directorySegmentName="seg_0" id="52519EAE-05C0-B7DF-04AF-21005705FD3B">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_ARCHIVO_AI_TRIG</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;    &lt;br/&gt;    SELECT T_ARCHIVO_AI.NEXTVAL&lt;br/&gt;    INTO :new.ID_ARCHIVO&lt;br/&gt;    FROM dual;&lt;br/&gt;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>AE2292FC-43E2-FF51-8677-819EDD136431</owner>
+<table>FA07855F-8C7E-FB18-6C4E-AB05D9450C03</table>
+</TriggerOraclev10g>

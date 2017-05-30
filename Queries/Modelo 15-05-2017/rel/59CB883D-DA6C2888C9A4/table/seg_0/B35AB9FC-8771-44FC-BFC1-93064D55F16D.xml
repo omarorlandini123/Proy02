@@ -1,0 +1,235 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B35AB9FC-8771-44FC-BFC1-93064D55F16D" schemaObject="D2B5CE47-766E-FD80-EAB0-56EBB3B6FE46" name="T_VERSION">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_VERSION</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:36 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VERSION" id="3731772C-BCB9-621A-1714-E34D916ED35A">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_VERSION</sourceObjSchema>
+<sourceObjName>ID_VERSION</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NRO" id="69CB709A-FD73-476F-2983-8DAF3AC6B6F1">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_VERSION</sourceObjSchema>
+<sourceObjName>NRO</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DET_PRESUP" id="39113C35-CC03-A9AB-4F8B-598E3AE61C7D">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_VERSION</sourceObjSchema>
+<sourceObjName>ID_DET_PRESUP</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6E3D995-BBB0-C049-E2F1-2DC8B0DE4549" referredColumn="E4DD85AA-69A1-B1F9-7510-243E500A1E95"/>
+</associations>
+</Column>
+<Column name="ID_AREA" id="FD758A8F-F1F6-7C14-309A-11A4904E5EA9">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_VERSION</sourceObjSchema>
+<sourceObjName>ID_AREA</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_AREA_NOT_NULL</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="03CE0480-E647-8E1A-6BC9-A82A2C52D290" referredColumn="FB57F021-B928-EC39-FDE8-E2B23781F58D"/>
+</associations>
+</Column>
+<Column name="V_FECHA_REG" id="0097DC86-4992-0477-703B-0438DA02C48A">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_VERSION</sourceObjSchema>
+<sourceObjName>V_FECHA_REG</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_USUARIO_REG" id="5C4FAF64-7D43-DA41-B673-7C0CD924C632">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_VERSION</sourceObjSchema>
+<sourceObjName>V_USUARIO_REG</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_ULT_MODIF_FEC" id="CCDA81F6-CD0B-9A75-1C46-763D3B5749CA">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_VERSION</sourceObjSchema>
+<sourceObjName>V_ULT_MODIF_FEC</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_ULT_MOD_USR" id="AEBA3E92-F61E-734E-1228-19AD0E7AC885">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_VERSION</sourceObjSchema>
+<sourceObjName>V_ULT_MOD_USR</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_FECHA_VAL_INI" id="1585BDAA-74E5-B096-CF25-D627E06EA5CB">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_VERSION</sourceObjSchema>
+<sourceObjName>V_FECHA_VAL_INI</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_FECHA_VAL_FIN" id="2E0E9EAB-A9DB-DCD6-4673-9C0964FDDB0D">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_VERSION</sourceObjSchema>
+<sourceObjName>V_FECHA_VAL_FIN</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EST_ACTUAL" id="F3807C56-E9A7-F7A3-37DE-214B0D9D817F">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_VERSION</sourceObjSchema>
+<sourceObjName>EST_ACTUAL</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55553AB0-DFEF-D2B7-C9B3-9C03233F2FA1" name="T_VERSION_PK">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_VERSION_PK</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3731772C-BCB9-621A-1714-E34D916ED35A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8394121D-050F-1B4F-B567-679421EEE1C9" schemaObject="D2B5CE47-766E-FD80-EAB0-56EBB3B6FE46" name="T_VERSION_PK">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_VERSION_PK</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3731772C-BCB9-621A-1714-E34D916ED35A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5445ABC8-E37E-9338-5E09-15D33114429E" name="T_VERSION_AREA">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD758A8F-F1F6-7C14-309A-11A4904E5EA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FB1257B-C667-2E3A-BCF4-C0EF88AAE632" name="T_VERSION_T_PRESUP_TIPO_FK">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39113C35-CC03-A9AB-4F8B-598E3AE61C7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

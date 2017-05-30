@@ -1,0 +1,100 @@
+﻿@using Entidades;
+@model Presupuesto
+@if (Session["usuario"] != null)
+{
+
+@{
+        Aprobacion rpta = null;
+        bool requiereAnterior = false;
+        foreach (Aprobacion aprob in Model.aprobaciones)
+        {
+            if (aprob.usuarioApro.usuario == ((Usuario)Session["usuario"]).usuario)
+            {
+                rpta = aprob;
+
+                foreach (Aprobacion aprob2 in Model.aprobaciones)
+                {
+                    if (aprob.orden > aprob2.orden && aprob2.estado != Aprobacion.estados.Aprobado)
+                    {
+                        rpta = aprob2;
+                        requiereAnterior = true;
+                    }
+                }
+            }
+        }
+ else
+                                {
+                                    < div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="form-group">
+                                                <center>
+                                                    <h3>Su sesión ha expirado, ingrese nuevamente.</h3>
+                                                </center>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="col-sm-6 contenido-derecha">
+                                                <button type = "button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                }
+    }
+}
+
+<div class="modal-content">
+    <div class="modal-body">
+        <div class="form-group">
+            <center>
+                @if (rpta == null)
+                {
+
+                    <h3>El usuario <strong>@(((Usuario)Session["usuario"]).usuario)</strong> no puede aprobar este Presupuesto</h3>
+
+                }
+                else if (requiereAnterior)
+                {
+                    <h3>Se requiere la aprobacion del usuario <strong>@rpta.usuarioApro.usuario</strong> para continuar. </h3>
+                }
+            </center>
+        </div>
+    </div>
+</div>
+@if(rpta!=null)
+{
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <center><h4 class="modal-title">Cambiar estado presupuesto</h4></center>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label for="nuevoEstado">Nuevo Estado:</label>
+            <select class="form-control" id="nuevoEstado">
+                @foreach (Aprobacion.estados foo in Enum.GetValues(typeof(Aprobacion.estados)))
+                {
+                    string selected = "";
+                   if (foo == Model.estadoActual) { selected = "selected=\"selected\" "; }
+
+                    
+                    <option value="@((int)foo)" @selected >@Enum.GetName(typeof(Aprobacion.estados),foo) </option>
+
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="observacionNuevoEstado">Observacion</label>            
+            <textarea class="form-control" rows="5" id="observacionNuevoEstado">@rpta.Observacion</textarea>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div class="col-sm-6 contenido-derecha">
+            <button type="button" class="btn btn-warning" onclick="AprobarPresupuesto(@Model.idPresupuesto)" id="btnAceptar">Guardar</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal" id="btnObsAceptar">Cancelar</button>
+        </div>
+
+    </div>
+</div>
+}

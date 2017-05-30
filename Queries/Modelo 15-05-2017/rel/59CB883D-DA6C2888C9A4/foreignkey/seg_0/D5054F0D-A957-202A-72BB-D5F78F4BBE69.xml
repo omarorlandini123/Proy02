@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D5054F0D-A957-202A-72BB-D5F78F4BBE69" containerWithKeyObject="E2F76DB1-B440-084F-4DE0-7F981E47BD21" localFKIndex="E9DFAC7B-113D-592E-21A5-9EB3C3126E86" name="T_APRB_PRESP_T_PRESP_TP_FK">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_APRB_PRESP_T_PRESP_TP_FK</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C3CD92BB-40CD-5042-E4BD-4167AECA7BB4</referredTableID>
+<keyObject>E158FC89-C097-62F8-0EA1-D6B2DF624A11</keyObject>
+<referredKeyID>E158FC89-C097-62F8-0EA1-D6B2DF624A11</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

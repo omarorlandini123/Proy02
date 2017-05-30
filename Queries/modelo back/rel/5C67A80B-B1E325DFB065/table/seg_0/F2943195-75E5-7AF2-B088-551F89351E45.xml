@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2943195-75E5-7AF2-B088-551F89351E45" name="T_DET_ARCHIVO">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:41:39 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DETALLE" id="6B8128CE-B251-18DF-D61A-62E184139CE5">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:42:28 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="212D5299-21D1-1EC7-A9AA-80E2876226E8" referredColumn="350C6142-8291-2D93-A4D2-7788C133DF95"/>
+</associations>
+</Column>
+<Column name="ID_ARCHIVO" id="196BF45F-FE3F-D1D2-09D0-F027C6C2D1BE">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:42:28 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A7A1627-1792-0C7E-AB6F-DD360B9D7401" referredColumn="F8493403-D0BC-1260-34F9-8CCC64FD4CC4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9916B3BB-9767-21EF-D413-3844D8420406" name="T_DET_ARV_T_ARCHIVO_FK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 00:03:05 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="196BF45F-FE3F-D1D2-09D0-F027C6C2D1BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B6D7F6C-6BDA-A882-AA0E-EA592EC4AD82" name="T_DET_ARV_T_DET_VSN_FK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 00:03:28 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B8128CE-B251-18DF-D61A-62E184139CE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

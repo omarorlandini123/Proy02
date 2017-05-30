@@ -1,0 +1,110 @@
+﻿.estado-ind {
+    border-radius: 50%;
+    float:left;
+    width: 20px;
+    height: 20px;
+    max-width:20px;
+    max-height:20px;    
+    margin-right:5px;
+}
+
+.estado-ind-rojo {    
+    background: red;   
+    border: none; 
+}
+.estado-ind-verde {    
+    background: green;    
+    border: none;
+}
+.estado-ind-blanco {    
+    background: white;    
+    border: 1px solid black;
+}
+
+.estado {   
+    margin:2px;
+    overflow-x:hidden;
+    display:inline-block;
+}
+
+.barra-principal {
+    background-color:#1a0a62;
+}
+
+.activo-principal {
+    background-color:#1a0a45;
+}
+
+
+.excesodiv{
+
+	    overflow-x: hidden;
+}
+
+
+.est-edicion{
+	background-color: #fbef86;
+	    
+}
+.est-edicion:hover{
+	background-color: #fbe315 !important;
+	    
+}
+
+
+.est-aprobado{
+	background-color: #9fda5a;
+}
+.est-aprobado:hover{
+	background-color: #98d056 !important;
+}
+
+
+.est-inactivo{
+	background-color: #85c4f7;
+}
+.est-inactivo:hover{
+	background-color: #5eb2f5 !important;
+}
+
+.est-enviado{
+	background-color: #3ad2d8;
+     color: white !important;
+}
+.est-enviado:hover{
+	background-color: #2c9094 !important;
+    color: white !important;
+}
+
+
+.est-desaprobado{
+	background-color: #d85945
+     color: white !important;
+}
+.est-desaprobado:hover{
+	background-color: #d85945 !important;
+     color: white !important;
+}
+
+.panel-principal {
+    padding-left: 50px;
+}
+
+.panel-secundario {
+    padding-right: 50px;
+}
+
+
+.contenido-derecha {
+float: right;
+
+}
+
+.autocompletar {
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+    margin-right: -300px;
+    max-height:200px;
+    overflow-y:scroll;
+}

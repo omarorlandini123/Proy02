@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="T_APROB_PRESUP_AI_TRIG" directorySegmentName="seg_0" id="E0484BFF-CAE5-3D3A-5F1C-93B8ECE50C73">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_APROB_PRESUP_AI_TRIG</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;    &lt;br/&gt;    SELECT T_APROB_PRESUP_AI.NEXTVAL&lt;br/&gt;    INTO :new.ID_APROB_PRESUP&lt;br/&gt;    FROM dual;&lt;br/&gt;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>AE2292FC-43E2-FF51-8677-819EDD136431</owner>
+<table>E2F76DB1-B440-084F-4DE0-7F981E47BD21</table>
+</TriggerOraclev10g>

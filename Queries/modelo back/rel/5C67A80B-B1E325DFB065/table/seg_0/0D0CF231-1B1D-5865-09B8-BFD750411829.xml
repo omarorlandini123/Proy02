@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D0CF231-1B1D-5865-09B8-BFD750411829" name="T_NIVEL_APROB">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:23:12 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_NIVEL" id="AC19C15D-EC05-B490-3C0A-B79164D35895">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:29:52 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="N_APROB_NOMBRE" id="248DEF0D-E023-CEE1-7B5A-1C7FA65EBEFA">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:29:52 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USR_REG" id="633EE72E-1F8C-2968-09DB-2E9BA8B87EF2">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:29:52 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECH_REG" id="9263B4AD-B3B6-95FD-18E2-535A3877AD26">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:29:52 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="CBE1240C-C364-D369-1AED-21ACD4E577E3">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:20:40 UTC</createdTime>
+<commentInRDBMS>1: ACTIVO, 0 : INACTIVO</commentInRDBMS>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46AFC968-8B6E-9E70-3B53-C5539AC3C9B7" name="T_NIVEL_APROBACION_PK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:29:52 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC19C15D-EC05-B490-3C0A-B79164D35895"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

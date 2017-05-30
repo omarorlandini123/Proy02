@@ -1,0 +1,88 @@
+﻿@using Entidades
+@model Presupuesto
+@if (Session["usuario"] != null)
+{
+
+<div class="list-group">
+    @if (Model.TiposPresupuestos != null)
+    {
+        foreach (DetallePresupuesto preArea in Model.TiposPresupuestos)
+        {
+            var claseFila = "est-edicion";
+            if (preArea.estadoActual == Aprobacion.estados.Aprobado)
+            {
+                claseFila = "est-aprobado";
+            }
+            else if (preArea.estadoActual == Aprobacion.estados.Desaprobado)
+            {
+                claseFila = "est-desaprobado";
+            }
+            else if (preArea.estadoActual == Aprobacion.estados.Enviado)
+            {
+                claseFila = "est-enviado";
+            }
+
+            <div href="#" class="list-group-item @claseFila">
+                <div class="row">
+                    <div class="col-sm-12 excesodiv">
+                        <a href="#" onclick="listarVersiones(@preArea.idPresupuestoTipo);">
+                            <center>
+                                <h4 class="list-group-item-heading">
+                                    @*<span class="glyphicon glyphicon-info-sign color-indicador" aria-hidden="true">&nbsp</span>*@
+                                    @preArea.tipoPresupuesto.nombrePresupuesto
+                                </h4>
+                            </center>
+                        </a>
+                    </div>
+                   
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">Version Actual: #@preArea.nroActual</div>
+                    <div class="col-sm-3" >Monto:</div>
+                    @if (preArea.monto > 0)
+                    {
+                        <div class="col-sm-3">S/ @string.Format("{0:0.00}", preArea.monto)</div>
+                    }
+                    else
+                    {
+                        <div class="col-sm-3">S/ 0.00</div>
+                    }
+                </div>
+                <div class="row">
+                    <div class="col-sm-6"><center><a href="javascript:NuevaVersion(@preArea.idPresupuestoTipo)">Nueva Version</a></center></div>
+                    <div class="col-sm-3">Desde:</div>
+                    <div class="col-sm-3">@preArea.fechaValIni.ToShortDateString()</div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3">Hasta:</div>
+                    <div class="col-sm-3">@preArea.fechaValFin.ToShortDateString()</div>
+                </div>
+            </div>
+
+        }
+    }
+    
+
+</div>
+}
+else
+{
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="form-group">
+                <center>
+                    <h3>Su sesión ha expirado, ingrese nuevamente.</h3>
+                </center>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+            </div>
+
+        </div>
+    </div>
+
+}

@@ -1,0 +1,62 @@
+﻿@model int
+
+@if (Session["usuario"] != null)
+{
+@if (Model == 1)
+{
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="form-group">
+                <center>
+                    <h3>Se eliminó el detalle correctamente</h3>
+                </center>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" onclick="OcultarPanelNuevo();getListaDetalle();" data-dismiss="modal">Aceptar</button>
+            </div>
+
+        </div>
+    </div>
+}
+else
+{
+
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="form-group">
+                <center>
+                    <h3>No se pudo guardar</h3>
+                </center>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" onclick="OcultarPanelNuevo();getListaDetalle();" data-dismiss="modal">Aceptar</button>
+            </div>
+
+        </div>
+    </div>
+}
+
+}
+else
+{
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="form-group">
+                <center>
+                    <h3>Su sesión ha expirado, ingrese nuevamente.</h3>
+                </center>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+            </div>
+
+        </div>
+    </div>
+
+}

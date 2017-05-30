@@ -1,0 +1,316 @@
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\ApplicationInsights.config
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\roslyn\csc.exe
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\roslyn\System.Collections.Immutable.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\roslyn\System.Reflection.Metadata.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\roslyn\vbc.exe
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\roslyn\VBCSCompiler.exe
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\roslyn\VBCSCompiler.exe.config
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\AppV2.dll.config
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\AppV2.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\AppV2.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Entidades.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\LogicAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Microsoft.AI.Agent.Intercept.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Microsoft.AI.DependencyCollector.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Microsoft.AI.Web.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Microsoft.AI.WindowsServer.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Microsoft.ApplicationInsights.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Microsoft.Web.Infrastructure.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Oracle.DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Oracle.Web.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\System.Web.Helpers.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\System.Web.Mvc.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\System.Web.Razor.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\System.Web.Webpages.Deployment.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\System.Web.Webpages.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\System.Web.Webpages.Razor.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Oracle.ManagedDataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Data.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Entidades.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\LogicAccess.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Microsoft.AI.DependencyCollector.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Microsoft.AI.Web.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Microsoft.AI.WindowsServer.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Microsoft.ApplicationInsights.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\System.Web.Razor.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\System.Web.Webpages.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\System.Web.Webpages.Deployment.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\System.Web.Webpages.Razor.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\System.Web.Helpers.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\System.Web.Mvc.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\DataAccess.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\Data.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\es\System.Web.Razor.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\es\System.Web.Webpages.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\es\System.Web.Webpages.Deployment.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\es\System.Web.Webpages.Razor.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\es\System.Web.Helpers.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\bin\es\System.Web.Mvc.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\obj\Debug\AppV2.csprojResolveAssemblyReference.cache
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\obj\Debug\AppV2.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\AppV2\obj\Debug\AppV2.pdb
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\ApplicationInsights.config
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\roslyn\csc.exe
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\roslyn\System.Collections.Immutable.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\roslyn\System.Reflection.Metadata.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\roslyn\vbc.exe
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\roslyn\VBCSCompiler.exe
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\roslyn\VBCSCompiler.exe.config
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\AppV2.dll.config
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\AppV2.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\AppV2.pdb
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Entidades.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\LogicAccess.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Microsoft.AI.DependencyCollector.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Microsoft.AI.Web.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Microsoft.AI.WindowsServer.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Microsoft.ApplicationInsights.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Microsoft.Web.Infrastructure.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\System.Web.Helpers.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\System.Web.Mvc.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\System.Web.Razor.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\System.Web.Webpages.Deployment.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\System.Web.Webpages.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\System.Web.Webpages.Razor.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\DataAccess.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Oracle.ManagedDataAccess.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Data.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Entidades.pdb
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\LogicAccess.pdb
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Microsoft.AI.DependencyCollector.xml
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Microsoft.AI.Web.xml
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Microsoft.AI.WindowsServer.xml
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Microsoft.ApplicationInsights.xml
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\System.Web.Razor.xml
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\System.Web.Webpages.xml
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\System.Web.Webpages.Deployment.xml
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\System.Web.Webpages.Razor.xml
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\System.Web.Helpers.xml
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\System.Web.Mvc.xml
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\DataAccess.pdb
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Data.pdb
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\es\System.Web.Razor.resources.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\es\System.Web.Webpages.resources.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\es\System.Web.Webpages.Deployment.resources.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\es\System.Web.Webpages.Razor.resources.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\es\System.Web.Helpers.resources.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\es\System.Web.Mvc.resources.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\obj\Debug\AppV2.csprojResolveAssemblyReference.cache
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\obj\Debug\AppV2.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\obj\Debug\AppV2.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\ApplicationInsights.config
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\roslyn\csc.exe
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\roslyn\System.Collections.Immutable.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\roslyn\System.Reflection.Metadata.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\roslyn\vbc.exe
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\roslyn\VBCSCompiler.exe
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\roslyn\VBCSCompiler.exe.config
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\AppV2.dll.config
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\AppV2.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\AppV2.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Entidades.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\LogicAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Microsoft.AI.Agent.Intercept.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Microsoft.AI.DependencyCollector.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Microsoft.AI.Web.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Microsoft.AI.WindowsServer.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Microsoft.ApplicationInsights.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Microsoft.Web.Infrastructure.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Oracle.DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Oracle.Web.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\System.Web.Helpers.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\System.Web.Mvc.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\System.Web.Razor.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\System.Web.Webpages.Deployment.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\System.Web.Webpages.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\System.Web.Webpages.Razor.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Oracle.ManagedDataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Data.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Entidades.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\LogicAccess.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Microsoft.AI.DependencyCollector.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Microsoft.AI.Web.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Microsoft.AI.WindowsServer.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Microsoft.ApplicationInsights.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\System.Web.Razor.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\System.Web.Webpages.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\System.Web.Webpages.Deployment.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\System.Web.Webpages.Razor.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\System.Web.Helpers.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\System.Web.Mvc.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\DataAccess.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\Data.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\es\System.Web.Razor.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\es\System.Web.Webpages.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\es\System.Web.Webpages.Deployment.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\es\System.Web.Webpages.Razor.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\es\System.Web.Helpers.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\bin\es\System.Web.Mvc.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\obj\Debug\AppV2.csprojResolveAssemblyReference.cache
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\obj\Debug\AppV2.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2\obj\Debug\AppV2.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\ApplicationInsights.config
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\roslyn\csc.exe
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\roslyn\System.Collections.Immutable.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\roslyn\System.Reflection.Metadata.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\roslyn\vbc.exe
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\roslyn\VBCSCompiler.exe
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\roslyn\VBCSCompiler.exe.config
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\AppV2.dll.config
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\AppV2.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\AppV2.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Entidades.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\LogicAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Microsoft.AI.Agent.Intercept.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Microsoft.AI.DependencyCollector.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Microsoft.AI.Web.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Microsoft.AI.WindowsServer.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Microsoft.ApplicationInsights.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Microsoft.Web.Infrastructure.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Oracle.DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Oracle.Web.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\System.Web.Helpers.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\System.Web.Mvc.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\System.Web.Razor.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\System.Web.Webpages.Deployment.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\System.Web.Webpages.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\System.Web.Webpages.Razor.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Oracle.ManagedDataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Data.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Entidades.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\LogicAccess.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Microsoft.AI.DependencyCollector.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Microsoft.AI.Web.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Microsoft.AI.WindowsServer.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Microsoft.ApplicationInsights.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\System.Web.Razor.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\System.Web.Webpages.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\System.Web.Webpages.Deployment.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\System.Web.Webpages.Razor.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\System.Web.Helpers.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\System.Web.Mvc.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\DataAccess.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\Data.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\es\System.Web.Razor.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\es\System.Web.Webpages.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\es\System.Web.Webpages.Deployment.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\es\System.Web.Webpages.Razor.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\es\System.Web.Helpers.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\bin\es\System.Web.Mvc.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\obj\Debug\AppV2.csprojResolveAssemblyReference.cache
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\obj\Debug\AppV2.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2\obj\Debug\AppV2.pdb
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Oracle.DataAccess.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\AppV2\bin\Oracle.Web.dll
+D:\Presupuestos\Proy01\AppV2\bin\ApplicationInsights.config
+D:\Presupuestos\Proy01\AppV2\bin\roslyn\csc.exe
+D:\Presupuestos\Proy01\AppV2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Presupuestos\Proy01\AppV2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Presupuestos\Proy01\AppV2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Presupuestos\Proy01\AppV2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Presupuestos\Proy01\AppV2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Presupuestos\Proy01\AppV2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Presupuestos\Proy01\AppV2\bin\roslyn\System.Collections.Immutable.dll
+D:\Presupuestos\Proy01\AppV2\bin\roslyn\System.Reflection.Metadata.dll
+D:\Presupuestos\Proy01\AppV2\bin\roslyn\vbc.exe
+D:\Presupuestos\Proy01\AppV2\bin\roslyn\VBCSCompiler.exe
+D:\Presupuestos\Proy01\AppV2\bin\roslyn\VBCSCompiler.exe.config
+D:\Presupuestos\Proy01\AppV2\bin\AppV2.dll.config
+D:\Presupuestos\Proy01\AppV2\bin\AppV2.dll
+D:\Presupuestos\Proy01\AppV2\bin\AppV2.pdb
+D:\Presupuestos\Proy01\AppV2\bin\Entidades.dll
+D:\Presupuestos\Proy01\AppV2\bin\LogicAccess.dll
+D:\Presupuestos\Proy01\AppV2\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Presupuestos\Proy01\AppV2\bin\Microsoft.AI.DependencyCollector.dll
+D:\Presupuestos\Proy01\AppV2\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Presupuestos\Proy01\AppV2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Presupuestos\Proy01\AppV2\bin\Microsoft.AI.Web.dll
+D:\Presupuestos\Proy01\AppV2\bin\Microsoft.AI.WindowsServer.dll
+D:\Presupuestos\Proy01\AppV2\bin\Microsoft.ApplicationInsights.dll
+D:\Presupuestos\Proy01\AppV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Presupuestos\Proy01\AppV2\bin\Microsoft.Web.Infrastructure.dll
+D:\Presupuestos\Proy01\AppV2\bin\Oracle.DataAccess.dll
+D:\Presupuestos\Proy01\AppV2\bin\Oracle.Web.dll
+D:\Presupuestos\Proy01\AppV2\bin\System.Web.Helpers.dll
+D:\Presupuestos\Proy01\AppV2\bin\System.Web.Mvc.dll
+D:\Presupuestos\Proy01\AppV2\bin\System.Web.Razor.dll
+D:\Presupuestos\Proy01\AppV2\bin\System.Web.Webpages.Deployment.dll
+D:\Presupuestos\Proy01\AppV2\bin\System.Web.Webpages.dll
+D:\Presupuestos\Proy01\AppV2\bin\System.Web.Webpages.Razor.dll
+D:\Presupuestos\Proy01\AppV2\bin\DataAccess.dll
+D:\Presupuestos\Proy01\AppV2\bin\Oracle.ManagedDataAccess.dll
+D:\Presupuestos\Proy01\AppV2\bin\Data.dll
+D:\Presupuestos\Proy01\AppV2\bin\Entidades.pdb
+D:\Presupuestos\Proy01\AppV2\bin\LogicAccess.pdb
+D:\Presupuestos\Proy01\AppV2\bin\Microsoft.AI.DependencyCollector.xml
+D:\Presupuestos\Proy01\AppV2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Presupuestos\Proy01\AppV2\bin\Microsoft.AI.Web.xml
+D:\Presupuestos\Proy01\AppV2\bin\Microsoft.AI.WindowsServer.xml
+D:\Presupuestos\Proy01\AppV2\bin\Microsoft.ApplicationInsights.xml
+D:\Presupuestos\Proy01\AppV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Presupuestos\Proy01\AppV2\bin\System.Web.Razor.xml
+D:\Presupuestos\Proy01\AppV2\bin\System.Web.Webpages.xml
+D:\Presupuestos\Proy01\AppV2\bin\System.Web.Webpages.Deployment.xml
+D:\Presupuestos\Proy01\AppV2\bin\System.Web.Webpages.Razor.xml
+D:\Presupuestos\Proy01\AppV2\bin\System.Web.Helpers.xml
+D:\Presupuestos\Proy01\AppV2\bin\System.Web.Mvc.xml
+D:\Presupuestos\Proy01\AppV2\bin\DataAccess.pdb
+D:\Presupuestos\Proy01\AppV2\bin\Data.pdb
+D:\Presupuestos\Proy01\AppV2\bin\es\System.Web.Razor.resources.dll
+D:\Presupuestos\Proy01\AppV2\bin\es\System.Web.Webpages.resources.dll
+D:\Presupuestos\Proy01\AppV2\bin\es\System.Web.Webpages.Deployment.resources.dll
+D:\Presupuestos\Proy01\AppV2\bin\es\System.Web.Webpages.Razor.resources.dll
+D:\Presupuestos\Proy01\AppV2\bin\es\System.Web.Helpers.resources.dll
+D:\Presupuestos\Proy01\AppV2\bin\es\System.Web.Mvc.resources.dll
+D:\Presupuestos\Proy01\AppV2\obj\Debug\AppV2.csprojResolveAssemblyReference.cache
+D:\Presupuestos\Proy01\AppV2\obj\Debug\AppV2.dll
+D:\Presupuestos\Proy01\AppV2\obj\Debug\AppV2.pdb
+D:\Presupuestos\Proy01\AppV2\bin\DocumentFormat.OpenXml.dll

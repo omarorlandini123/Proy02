@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3214AA0-59A5-7D00-A620-75649AE7382C" name="T_MES_ENT_SOL">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:47:33 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MES_ENTREGA" id="1781BC64-1045-6132-8D45-D734482CC8F0">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:52:07 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DETALLE" id="AEB87B2A-DBC9-7886-A256-1E838AE51674">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:52:07 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA0FED84-1628-DE7F-0353-082F52CB3177" referredColumn="350C6142-8291-2D93-A4D2-7788C133DF95"/>
+</associations>
+</Column>
+<Column name="MES" id="50DEDD06-8C89-2783-5956-91CC06006E44">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:52:07 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="54CB00BC-F83D-B971-DAC6-56067D1A9F37">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:52:07 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MES_ENT_FEC_REG" id="5FBDAA7E-D1B6-2C7C-0E8D-7D6848B13726">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:52:07 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MES_ENT_USR_REG" id="5E9A31BD-5077-95F7-60A4-AE67EBBD995E">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:52:07 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7DC00B78-EE78-AD2E-FD36-821F3DF67F69" name="T_MES_ENT_SOL_PK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:52:07 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1781BC64-1045-6132-8D45-D734482CC8F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB8B3343-B948-B399-E8C8-BAA8C3C74E1F" name="T_MES_ENTSOL_T_DET_VSN_FK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:57:55 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEB87B2A-DBC9-7886-A256-1E838AE51674"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,30 @@
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\Data\bin\Debug\Data.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\Data\bin\Debug\Data.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\Data\bin\Debug\Oracle.DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\Data\obj\Debug\Data.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\Data\obj\Debug\Data.pdb
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\Data\bin\Debug\Data.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\Data\bin\Debug\Data.pdb
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\Data\obj\Debug\Data.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\Data\obj\Debug\Data.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Data\bin\Debug\Data.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Data\bin\Debug\Data.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Data\bin\Debug\Oracle.DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Data\obj\Debug\Data.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Data\obj\Debug\Data.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\Data\bin\Debug\Data.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\Data\bin\Debug\Data.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\Data\bin\Debug\Oracle.DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\Data\obj\Debug\Data.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\Data\obj\Debug\Data.pdb
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\Data\bin\Debug\Oracle.DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\Presupuestos\Proy01\Data\bin\Debug\Data.dll
+D:\Presupuestos\Proy01\Data\bin\Debug\Data.pdb
+D:\Presupuestos\Proy01\Data\bin\Debug\Oracle.DataAccess.dll
+D:\Presupuestos\Proy01\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\Presupuestos\Proy01\Data\obj\Debug\Data.dll
+D:\Presupuestos\Proy01\Data\obj\Debug\Data.pdb

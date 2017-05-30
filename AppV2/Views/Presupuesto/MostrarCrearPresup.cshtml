@@ -1,0 +1,84 @@
+﻿@using Entidades;
+@model DetalleVersion
+@if (Session["usuario"] != null)
+{
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <center><h4 class="modal-title">Crear Presupuesto</h4></center>
+    </div>
+    <div class="modal-body">
+        <div class="col-sm-12">
+            <label for="nombrePresupuesto" class="control-label col-sm-5">Nombre Presupuesto</label>
+            <div class="form-group col-sm-7">
+                <input class="form-control" type="text" name="" value="" id="nombrePresupuesto" />
+            </div>
+            <label for="idSede" class="control-label col-sm-5">Sede</label>
+            <div class="form-group col-sm-7">
+                <select class="form-control" id="idSede">
+                    @foreach (Sede prio in ViewBag.sedes)
+                    {
+                        <option value="@prio.codSede">@prio.desSede</option>
+                    }
+                </select>
+            </div>
+            <label for="mesDesde" class="control-label col-sm-5">Mes Inicio</label>
+            <div class="form-group col-sm-7">
+                <select class="form-control" id="mesDesde">
+                    @for (int a = 1; a <= 12; a++)
+                    {
+                        <option value="@(a)">@MesEntSoli.getMesCorto((MesEntSoli.Meses)a)</option>
+
+                    }
+                </select>
+            </div>
+            <label for="anioDesde" class="control-label col-sm-5">Año Inicio</label>
+            <div class="form-group col-sm-7">
+                <input class="form-control" type="text" name="" value="" id="anioDesde" />
+            </div>
+            <label for="mesHasta" class="control-label col-sm-5">Mes Fin</label>
+            <div class="form-group col-sm-7">
+                <select class="form-control" id="mesHasta">
+                    @for (int a = 1; a <= 12; a++)
+                    {
+                        <option value="@(a)">@MesEntSoli.getMesCorto((MesEntSoli.Meses)a)</option>
+
+                    }
+                </select>
+            </div>
+            <label for="anioHasta" class="control-label col-sm-5">Año Fin</label>
+            <div class="form-group col-sm-7">
+                <input class="form-control" type="text" name="" value="" id="anioHasta" />
+            </div>
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <div class="col-sm-6 contenido-derecha">
+            <button type="button" class="btn btn-warning" onclick="CrearPresup()" id="btnAceptar">Crear</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal" id="btnObsAceptar">Cancelar</button>
+        </div>
+
+    </div>
+</div>
+}
+else
+{
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="form-group">
+                <center>
+                    <h3>Su sesión ha expirado, ingrese nuevamente.</h3>
+                </center>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+            </div>
+
+        </div>
+    </div>
+
+}
+

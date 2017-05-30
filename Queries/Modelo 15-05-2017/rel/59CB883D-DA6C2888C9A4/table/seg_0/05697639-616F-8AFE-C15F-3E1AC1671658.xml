@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05697639-616F-8AFE-C15F-3E1AC1671658" name="T_DET_APROB_AREA_TIPO">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-21 23:29:18 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DET_APROB_AREA_TIPO" id="E03B8CC4-2D49-64CE-6414-F9A3BB0948AF">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-21 23:30:57 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_APROB_AREA_TIPO" id="6AC3E88F-BB51-B0C1-B2B3-EA52E44630C8">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-21 23:30:57 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="980B3729-73B3-4FB2-571C-0D3E0DE3229B" referredColumn="164B62F1-99A6-5DE1-04DA-0356920A340A"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="A908722C-D7BB-E2B5-D569-3E864277F4D0">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-21 23:30:57 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USR_REG" id="06AC2D16-F478-D9FD-41FE-80A79F1BE4A2">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-21 23:30:57 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FEC_REG" id="A4D55091-B0D9-2F86-6855-D17E734FD7B1">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-21 23:30:57 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D29AFD4-F2CB-F2B0-9D9A-2B74C7717130" name="T_DET_APROB_AREA_TIPO_PK">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-21 23:30:57 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E03B8CC4-2D49-64CE-6414-F9A3BB0948AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1A2CBDB-0CE0-0879-8307-C35224EDF6FE" name="T_D_APROB_AREA_TIPO_FK">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-21 23:31:20 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AC3E88F-BB51-B0C1-B2B3-EA52E44630C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

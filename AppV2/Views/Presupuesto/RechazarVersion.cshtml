@@ -1,0 +1,59 @@
+﻿@model int
+
+
+@if (Session["usuario"] != null)
+{
+<div class="modal-content">
+    <div class="modal-body">
+
+        <div class="form-group">
+            <center>
+                @switch (Model)
+                {
+                    case 1:
+                        <h3>Se desaprobó correctamente esta Versión.</h3>
+                        break;
+                    case 2:
+                        <h3>La versión  no se ha enviado a aprobar.</h3>
+                        break;
+                    case 3:
+                        <h3>Existen observaciones no resueltas, no se puede aprobar.</h3>
+                        break;
+                    case 4:
+                        <h3>Ud. no tiene permiso para aprobar esta versión.</h3>
+                        break;
+                    case 5:
+                        <h3>Debe registrarse como aprobador de esta versión.</h3>
+                        break;
+                }
+
+            </center>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div class="col-sm-6 contenido-derecha">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Aceptar</button>
+        </div>
+
+    </div>
+</div>
+}
+else
+{
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="form-group">
+                <center>
+                    <h3>Su sesión ha expirado, ingrese nuevamente.</h3>
+                </center>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+            </div>
+
+        </div>
+    </div>
+
+}

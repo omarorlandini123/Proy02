@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4CDC417-5D9B-4137-394A-E83D91D809E8" name="T_DET_APROB_PRESUP">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:27:21 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DET_APROB_PRESUP" id="0B2684ED-3C5E-2FEA-143E-78C15069584A">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:28:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_APROB_PRESUP" id="D9B0D2A1-CD40-8D93-D7C1-A04814A601AD">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:29:49 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B92BE84D-8DEB-198E-43D0-EDD750C12827" referredColumn="E6046BE3-BB5E-62F4-C3B8-53802B1B857E"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="570FA12C-882E-B8BF-CF6A-DAF3ECFDDE46">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:28:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FEC_REG" id="1F3B6815-AAD0-6837-F0C9-D9DC1B82081E">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:30:17 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3017D41A-A0CD-7025-9B00-AE25A25CC0ED" name="T_DET_APROB_PRESUP_PK">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:31:46 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B2684ED-3C5E-2FEA-143E-78C15069584A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="164D2423-9CB1-6DDB-1905-4D603E8923B4" name="T_DET_PRESUP_APROB_PRESUP_FK">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:33:50 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9B0D2A1-CD40-8D93-D7C1-A04814A601AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

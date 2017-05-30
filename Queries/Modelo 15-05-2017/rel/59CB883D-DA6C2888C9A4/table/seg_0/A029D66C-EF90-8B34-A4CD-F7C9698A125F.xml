@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A029D66C-EF90-8B34-A4CD-F7C9698A125F" schemaObject="D2B5CE47-766E-FD80-EAB0-56EBB3B6FE46" name="T_DET_ARCHIVO">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_DET_ARCHIVO</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:36 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DETALLE" id="3D144D52-2C9F-3740-1C56-ADA200829813">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_DET_ARCHIVO</sourceObjSchema>
+<sourceObjName>ID_DETALLE</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D8B3F16-3192-8776-0803-101A79CAD1D0" referredColumn="947B9AD9-6252-ED59-49F3-59D42DD5D21A"/>
+</associations>
+</Column>
+<Column name="ID_ARCHIVO" id="F274DFE4-6DA8-B3B0-9BA7-A44502A4C3CE">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_DET_ARCHIVO</sourceObjSchema>
+<sourceObjName>ID_ARCHIVO</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6975C0C0-8E60-1723-E50C-345DBC509E21" referredColumn="4351E2E9-B81B-76C3-A025-67C7D30E4077"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B97601E-1BEA-B0F7-F10E-A91403204744" name="T_DET_ARV_T_ARCHIVO_FK">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F274DFE4-6DA8-B3B0-9BA7-A44502A4C3CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A98CA341-DFC3-EAB1-7602-86A306818C0D" name="T_DET_ARV_T_DET_VSN_FK">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D144D52-2C9F-3740-1C56-ADA200829813"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

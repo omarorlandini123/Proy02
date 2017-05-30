@@ -1,0 +1,143 @@
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\ApplicationInsights.config
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\roslyn\csc.exe
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\roslyn\vbc.exe
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\AppV2.Tests.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\AppV2.Tests.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\AppV2.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\Data.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\Entidades.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\LogicAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\Oracle.DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\System.Web.Mvc.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\System.Web.Razor.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\System.Web.WebPages.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\AppV2.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\DataAccess.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\Data.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\Entidades.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\LogicAccess.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\System.Web.Mvc.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\System.Web.Razor.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\System.Web.WebPages.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\es\System.Web.Mvc.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\es\System.Web.Razor.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\es\System.Web.WebPages.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\obj\Debug\AppV2.Tests.csprojResolveAssemblyReference.cache
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\obj\Debug\AppV2.Tests.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\obj\Debug\AppV2.Tests.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\AppV2.Tests\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\ApplicationInsights.config
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\roslyn\csc.exe
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\roslyn\vbc.exe
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\AppV2.Tests.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\AppV2.Tests.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\AppV2.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\Data.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\Entidades.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\LogicAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\Oracle.DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\System.Web.Mvc.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\System.Web.Razor.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\System.Web.WebPages.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\AppV2.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\DataAccess.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\Data.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\Entidades.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\LogicAccess.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\System.Web.Mvc.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\System.Web.Razor.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\System.Web.WebPages.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\es\System.Web.Mvc.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\es\System.Web.Razor.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\es\System.Web.WebPages.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\obj\Debug\AppV2.Tests.csprojResolveAssemblyReference.cache
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\obj\Debug\AppV2.Tests.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\AppV2.Tests\obj\Debug\AppV2.Tests.pdb
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\ApplicationInsights.config
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\roslyn\csc.exe
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\roslyn\vbc.exe
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\AppV2.Tests.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\AppV2.Tests.pdb
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\AppV2.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\Data.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\DataAccess.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\Entidades.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\LogicAccess.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\Oracle.DataAccess.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\System.Web.Razor.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\System.Web.WebPages.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\AppV2.pdb
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\DataAccess.pdb
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\Data.pdb
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\Entidades.pdb
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\LogicAccess.pdb
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\System.Web.Mvc.xml
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\System.Web.Razor.xml
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\System.Web.WebPages.xml
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\es\System.Web.Mvc.resources.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\es\System.Web.Razor.resources.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\es\System.Web.WebPages.resources.dll
+D:\Presupuestos\Proy01\AppV2.Tests\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+D:\Presupuestos\Proy01\AppV2.Tests\obj\Debug\AppV2.Tests.csprojResolveAssemblyReference.cache
+D:\Presupuestos\Proy01\AppV2.Tests\obj\Debug\AppV2.Tests.dll
+D:\Presupuestos\Proy01\AppV2.Tests\obj\Debug\AppV2.Tests.pdb

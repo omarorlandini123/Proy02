@@ -1,0 +1,85 @@
+﻿@model IEnumerable<Entidades.DetalleAprobacion>
+@if (Session["usuario"] != null)
+{
+
+@if (Model != null)
+{
+
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-sm-12">
+
+                    <table class="table">
+                        <tr>
+
+                            <th>
+                                Fecha registro
+                            </th>
+                            <th>
+                                Estado
+                            </th>
+                        </tr>
+
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @(item.fecReg.ToLongDateString() + " " + item.fecReg.ToLongTimeString())
+                                </td>
+                                <td>
+                                    @item.estado.ToString()
+                                </td>
+                            </tr>
+                        }
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Aceptar</button>
+            </div>
+
+        </div>
+    </div>
+
+}
+else
+{
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="form-group">
+                <center>
+                    <h3>No se ha encontrado detalles para esta aprobación</h3>
+                </center>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Aceptar</button>
+            </div>
+
+        </div>
+    </div>
+}
+}
+else
+{
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="form-group">
+                <center>
+                    <h3>Su sesión ha expirado, ingrese nuevamente.</h3>
+                </center>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+            </div>
+
+        </div>
+    </div>
+
+}

@@ -1,0 +1,60 @@
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\LogicAccess\bin\Debug\LogicAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\LogicAccess\bin\Debug\LogicAccess.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\LogicAccess\bin\Debug\DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\LogicAccess\bin\Debug\Entidades.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\LogicAccess\bin\Debug\Data.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\LogicAccess\bin\Debug\Oracle.DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\LogicAccess\bin\Debug\DataAccess.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\LogicAccess\bin\Debug\Entidades.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\LogicAccess\bin\Debug\Data.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\LogicAccess\obj\Debug\LogicAccess.csprojResolveAssemblyReference.cache
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\LogicAccess\obj\Debug\LogicAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\AppV2\LogicAccess\obj\Debug\LogicAccess.pdb
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\LogicAccess\bin\Debug\LogicAccess.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\LogicAccess\bin\Debug\LogicAccess.pdb
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\LogicAccess\bin\Debug\DataAccess.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\LogicAccess\bin\Debug\Entidades.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\LogicAccess\bin\Debug\Data.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\LogicAccess\bin\Debug\Oracle.DataAccess.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\LogicAccess\bin\Debug\DataAccess.pdb
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\LogicAccess\bin\Debug\Entidades.pdb
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\LogicAccess\bin\Debug\Data.pdb
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\LogicAccess\obj\Debug\LogicAccess.csprojResolveAssemblyReference.cache
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\LogicAccess\obj\Debug\LogicAccess.dll
+E:\Proyectos\Presupuesto Sima\Aplicativo\Proy01\LogicAccess\obj\Debug\LogicAccess.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\LogicAccess\bin\Debug\LogicAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\LogicAccess\bin\Debug\LogicAccess.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\LogicAccess\bin\Debug\DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\LogicAccess\bin\Debug\Entidades.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\LogicAccess\bin\Debug\Data.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\LogicAccess\bin\Debug\Oracle.DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\LogicAccess\bin\Debug\DataAccess.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\LogicAccess\bin\Debug\Entidades.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\LogicAccess\bin\Debug\Data.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\LogicAccess\obj\Debug\LogicAccess.csprojResolveAssemblyReference.cache
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\LogicAccess\obj\Debug\LogicAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\LogicAccess\obj\Debug\LogicAccess.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\LogicAccess\bin\Debug\LogicAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\LogicAccess\bin\Debug\LogicAccess.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\LogicAccess\bin\Debug\DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\LogicAccess\bin\Debug\Entidades.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\LogicAccess\bin\Debug\Data.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\LogicAccess\bin\Debug\Oracle.DataAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\LogicAccess\bin\Debug\DataAccess.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\LogicAccess\bin\Debug\Entidades.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\LogicAccess\bin\Debug\Data.pdb
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\LogicAccess\obj\Debug\LogicAccess.csprojResolveAssemblyReference.cache
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\LogicAccess\obj\Debug\LogicAccess.dll
+D:\omar\Proyectos\Proyecto Presupuesto Sima\Version GIT\Proy01\LogicAccess\obj\Debug\LogicAccess.pdb
+D:\Presupuestos\Proy01\LogicAccess\bin\Debug\LogicAccess.dll
+D:\Presupuestos\Proy01\LogicAccess\bin\Debug\LogicAccess.pdb
+D:\Presupuestos\Proy01\LogicAccess\bin\Debug\DataAccess.dll
+D:\Presupuestos\Proy01\LogicAccess\bin\Debug\Entidades.dll
+D:\Presupuestos\Proy01\LogicAccess\bin\Debug\Data.dll
+D:\Presupuestos\Proy01\LogicAccess\bin\Debug\Oracle.DataAccess.dll
+D:\Presupuestos\Proy01\LogicAccess\bin\Debug\DataAccess.pdb
+D:\Presupuestos\Proy01\LogicAccess\bin\Debug\Entidades.pdb
+D:\Presupuestos\Proy01\LogicAccess\bin\Debug\Data.pdb
+D:\Presupuestos\Proy01\LogicAccess\obj\Debug\LogicAccess.csprojResolveAssemblyReference.cache
+D:\Presupuestos\Proy01\LogicAccess\obj\Debug\LogicAccess.dll
+D:\Presupuestos\Proy01\LogicAccess\obj\Debug\LogicAccess.pdb

@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="DEL_ARCHIVO" directorySegmentName="seg_0" id="38B30C82-F2FA-2E77-20D8-C420BB6DBE36">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>DEL_ARCHIVO</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:38 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<owner>AE2292FC-43E2-FF51-8677-819EDD136431</owner>
+<source>CREATE OR REPLACE PROCEDURE CONSULTOR3.DEL_ARCHIVO (&lt;br/&gt;  VAR_ID_ARCHIVO IN NUMBER,&lt;br/&gt;  CUR_RPTA OUT SYS_REFCURSOR ) IS&lt;br/&gt;  &lt;br/&gt;BEGIN&lt;br/&gt;&lt;br/&gt;    SAVEPOINT obtenerResultados;&lt;br/&gt;&lt;br/&gt;	DELETE FROM T_DET_ARCHIVO WHERE ID_ARCHIVO=VAR_ID_ARCHIVO;&lt;br/&gt;	&lt;br/&gt;	DELETE FROM T_ARCHIVO WHERE ID_ARCHIVO=VAR_ID_ARCHIVO;&lt;br/&gt;&lt;br/&gt;	OPEN CUR_RPTA FOR&lt;br/&gt;	SELECT&lt;br/&gt;      1 as RPTA&lt;br/&gt;	FROM&lt;br/&gt;		dual;&lt;br/&gt;&lt;br/&gt;EXCEPTION &lt;br/&gt;        WHEN OTHERS THEN&lt;br/&gt;&lt;br/&gt;            ROLLBACK TO obtenerResultados;&lt;br/&gt;            RAISE;&lt;br/&gt;END;</source>
+<body>CREATE OR REPLACE PROCEDURE CONSULTOR3.DEL_ARCHIVO (&lt;br/&gt;  VAR_ID_ARCHIVO IN NUMBER,&lt;br/&gt;  CUR_RPTA OUT SYS_REFCURSOR ) IS&lt;br/&gt;  &lt;br/&gt;BEGIN&lt;br/&gt;&lt;br/&gt;    SAVEPOINT obtenerResultados;&lt;br/&gt;&lt;br/&gt;	DELETE FROM T_DET_ARCHIVO WHERE ID_ARCHIVO=VAR_ID_ARCHIVO;&lt;br/&gt;	&lt;br/&gt;	DELETE FROM T_ARCHIVO WHERE ID_ARCHIVO=VAR_ID_ARCHIVO;&lt;br/&gt;&lt;br/&gt;	OPEN CUR_RPTA FOR&lt;br/&gt;	SELECT&lt;br/&gt;      1 as RPTA&lt;br/&gt;	FROM&lt;br/&gt;		dual;&lt;br/&gt;&lt;br/&gt;EXCEPTION &lt;br/&gt;        WHEN OTHERS THEN&lt;br/&gt;&lt;br/&gt;            ROLLBACK TO obtenerResultados;&lt;br/&gt;            RAISE;&lt;br/&gt;END;</body>
+</StoredProcedureOraclev10g>

@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="GET_ARCHIVO" directorySegmentName="seg_0" id="CBFBE75E-C01A-2A72-C1C5-30E814C23C1C">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>GET_ARCHIVO</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:38 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<owner>AE2292FC-43E2-FF51-8677-819EDD136431</owner>
+<source>CREATE OR REPLACE PROCEDURE CONSULTOR3.GET_ARCHIVO (&lt;br/&gt;  VAR_ID_ARCHIVO IN NUMBER,&lt;br/&gt;  CUR_RPTA OUT SYS_REFCURSOR ) IS&lt;br/&gt;  &lt;br/&gt;BEGIN&lt;br/&gt;&lt;br/&gt;    SAVEPOINT obtenerResultados;&lt;br/&gt;&lt;br/&gt;	OPEN CUR_RPTA FOR&lt;br/&gt;	SELECT&lt;br/&gt;      A.ID_ARCHIVO,A.NOMB_ARCHIVO,A.TIPO_ARCHIVO,A.RUTA_ARCHIVO,A.ARCH_FEC_REG,A.ARCH_USR_REG&lt;br/&gt;	FROM&lt;br/&gt;		T_ARCHIVO A&lt;br/&gt;	WHERE A.ID_ARCHIVO=VAR_ID_ARCHIVO;&lt;br/&gt;&lt;br/&gt;EXCEPTION &lt;br/&gt;        WHEN OTHERS THEN&lt;br/&gt;&lt;br/&gt;            ROLLBACK TO obtenerResultados;&lt;br/&gt;            RAISE;&lt;br/&gt;END;</source>
+<body>CREATE OR REPLACE PROCEDURE CONSULTOR3.GET_ARCHIVO (&lt;br/&gt;  VAR_ID_ARCHIVO IN NUMBER,&lt;br/&gt;  CUR_RPTA OUT SYS_REFCURSOR ) IS&lt;br/&gt;  &lt;br/&gt;BEGIN&lt;br/&gt;&lt;br/&gt;    SAVEPOINT obtenerResultados;&lt;br/&gt;&lt;br/&gt;	OPEN CUR_RPTA FOR&lt;br/&gt;	SELECT&lt;br/&gt;      A.ID_ARCHIVO,A.NOMB_ARCHIVO,A.TIPO_ARCHIVO,A.RUTA_ARCHIVO,A.ARCH_FEC_REG,A.ARCH_USR_REG&lt;br/&gt;	FROM&lt;br/&gt;		T_ARCHIVO A&lt;br/&gt;	WHERE A.ID_ARCHIVO=VAR_ID_ARCHIVO;&lt;br/&gt;&lt;br/&gt;EXCEPTION &lt;br/&gt;        WHEN OTHERS THEN&lt;br/&gt;&lt;br/&gt;            ROLLBACK TO obtenerResultados;&lt;br/&gt;            RAISE;&lt;br/&gt;END;</body>
+</StoredProcedureOraclev10g>

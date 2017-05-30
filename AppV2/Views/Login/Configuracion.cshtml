@@ -1,0 +1,36 @@
+﻿@using Entidades;
+@model IEnumerable<Perfil>
+
+<div class="row">
+    <br />
+    <div class="col-sm-6 panel-principal">
+        <h3>Perfiles <strong>  </strong></h3>
+        @if (((Usuario)Session["usuario"]).tieneAccesoA(Accesos.MostrarCrearPerfil))
+        {
+            <button type="button" class="btn btn-success btn-xs" onclick="MostrarCrearPerfil()">Crear Perfil</button>
+        }
+        <br /><br />
+        @if (((Usuario)Session["usuario"]).tieneAccesoA(Accesos.VerPerfilesPanel))
+        {
+        <div class="list-group">
+            @foreach (var item in Model)
+            {
+                <div  class="list-group-item">
+                    <div class="row">
+                        <input type="hidden" name="idPerfil" id="idPerfil" value="@item.idPerfil" />
+                        <a class="col-sm-6" href="javascript:getAccesosDePerfil(@item.idPerfil)">@item.nombre</a>
+                        <button type="button" class="col-sm-1 col-sm-offset-4 btn btn-danger btn-xs" onclick="EliminarPerfil(@item.idPerfil)">X</button>
+                    </div>
+                </div>
+            }
+        </div>
+        }
+    </div>
+    <div class="col-sm-6 panel-secundario" id="listaAccesos">
+
+
+    </div>
+
+
+</div>
+

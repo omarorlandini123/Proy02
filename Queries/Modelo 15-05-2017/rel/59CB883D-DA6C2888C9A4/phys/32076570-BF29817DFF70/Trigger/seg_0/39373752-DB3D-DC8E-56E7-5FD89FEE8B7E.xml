@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="T_OBSERVACIONES_AI_TRIG" directorySegmentName="seg_0" id="39373752-DB3D-DC8E-56E7-5FD89FEE8B7E">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_OBSERVACIONES_AI_TRIG</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;    &lt;br/&gt;    SELECT T_OBSERVACIONES_AI.NEXTVAL&lt;br/&gt;    INTO :new.ID_OBSERVACIONES&lt;br/&gt;    FROM dual;&lt;br/&gt;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>AE2292FC-43E2-FF51-8677-819EDD136431</owner>
+<table>0733F131-2119-5241-E2E4-F9E2F55EF752</table>
+</TriggerOraclev10g>

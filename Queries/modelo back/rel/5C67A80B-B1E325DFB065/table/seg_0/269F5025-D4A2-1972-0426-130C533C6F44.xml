@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="269F5025-D4A2-1972-0426-130C533C6F44" name="T_PERFIL_USR">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:44:32 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USUARIO" id="A34B705C-BEA3-4684-A6F7-4484CC3835F8">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:45:00 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PERFIL" id="D14692A5-5708-1005-1757-5EF34B7ADA71">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:45:35 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B2BC18C-403F-6C3A-F70C-5E884EB49ECD" referredColumn="C4D31D14-3E3B-C2B7-7195-633BEB7C1973"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE6121E0-76FB-C9DD-9644-297E5CB3416C" name="T_PERFIL_USR_PERF_FK">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:47:23 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D14692A5-5708-1005-1757-5EF34B7ADA71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

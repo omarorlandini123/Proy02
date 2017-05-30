@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C7EEC02-7DC6-1E91-440F-CA96FCD0B720" name="T_PERFILES">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:45:41 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PERFIL" id="C4D31D14-3E3B-C2B7-7195-633BEB7C1973">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:45:53 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="04832471-38E5-7B27-0204-F030FB301BD7">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:46:15 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="1E31586A-6509-52BD-3E60-5872A0AC1F83">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:46:36 UTC</createdTime>
+<commentInRDBMS>0: INACTIVO; 1:ACTIVO</commentInRDBMS>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43869C49-EDB5-50C6-23E5-654398F303FF" name="T_PERFILES_PK">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:47:06 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4D31D14-3E3B-C2B7-7195-633BEB7C1973"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

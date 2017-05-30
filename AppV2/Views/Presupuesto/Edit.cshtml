@@ -1,0 +1,180 @@
+﻿@using Entidades
+@model DetalleVersion
+
+@if (Session["usuario"] != null)
+{
+    if (Model.mat != null)
+    {
+<div class="row">
+    <div class="col-sm-12">
+        <br />
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="col-sm-6" >Código Material:</div>
+                <div class="col-sm-6" id="contCodMaterial">
+                    <input class="form-control" id="codMaterial" value="@Model.mat.codProducto" type="text" name="codMaterial" placeholder="Ingrese un código">
+                    <div class="list-group autocompletar" id="ListarMateriales" style="display:none; ">
+                        <a href="#" class="list-group-item">
+                            <p class="list-group-item-text"> No se encuentra el material</p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="col-sm-2">Descripción:</div>
+                <div class="col-sm-10"><input disabled="disabled" class="form-control" type="text" name="desMaterial" id="desMaterial" value="@Model.NombreMaterialSoli "></div>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="col-sm-6">Clase:</div>
+                <div class="col-sm-6"><input disabled="disabled" class="form-control" type="text" name="" value="@Model.mat.subClase.clase.desClase"></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="col-sm-6">Precio Unit.</div>
+                <div class="col-sm-6" style="display: inline-flex;">S/. <input disabled="disabled" class="form-control" type="text" name="" value="@Model.mat.precioUnit" id="precioUnit"></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="col-sm-6">Unidad de Medida:</div>
+                <div class="col-sm-6"><input disabled="disabled" class="form-control" type="text" name="" value="@Model.mat.unidad" id="unidMedida"></div>
+            </div><br>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="col-sm-6">Sub-Clase:</div>
+                <div class="col-sm-6"><input disabled="disabled" class="form-control" type="text" name="" value="@Model.mat.subClase.desSubClase"  id="desSubClase"></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="col-sm-6"> Cantidad:</div>
+                <div class="col-sm-6"><input class="form-control solo-decimal" type="text" name=""  onkeypress="return NumCheck(event, this)" onkeyup="$('#totalsolic').val($('#cantidad').val() * $('#precioUnit').val())" value="@Model.cantidadSoli" id="cantidad"></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="col-sm-6">Unidad Solicitada:</div>
+                <div class="col-sm-6"><input disabled="disabled" class="form-control" type="text" name="" value="@Model.uniSoli" ></div>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="col-sm-6">Criticidad:</div>
+                <div class="col-sm-6"><input class="form-control solo-numero" type="text" name="" value="@Model.criticidad" id="desCriticidad"></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="col-sm-6">Total:</div>
+                <div class="col-sm-6 " style="display: inline-flex;">S/. <input disabled="disabled" class="form-control" type="text" name="" value="@Model.totalSoli" id="totalsolic"></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="col-sm-6">Largo:</div>
+                <div class="col-sm-6"><input class="form-control" type="text" onkeypress="return NumCheck(event, this)" name="" value="@Model.largo" id="largo"></div>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="col-sm-6">Prioridad:</div>                
+                <div class="col-sm-6">
+                    <div class="form-group">                        
+                        <select class="form-control" id="prioridad">
+                            @foreach (Prioridad prio in ViewBag.prioridades)
+                            {
+                                <option @(Model.prioridad.idPrioridad == prio.idPrioridad ? "selected" : "") value="@prio.idPrioridad">@prio.nombre</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="col-sm-6">Alto:</div>
+                <div class="col-sm-6"><input class="form-control" type="text" onkeypress="return NumCheck(event, this)" name="" value="@Model.alto" id="alto"></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="col-sm-6">Ancho:</div>
+                <div class="col-sm-6"><input class="form-control" type="text" onkeypress="return NumCheck(event, this)" name="" value="@Model.ancho" id="ancho"></div>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="col-sm-2">Sustento:</div>
+                <div class="col-sm-10"><textarea class="form-control" id="desSustento" rows="3" value="@Html.Encode(Model.sustento)">@Html.Encode(Model.sustento)</textarea></div>
+            </div>
+            <div class="col-sm-4 col-sm-offset-2" style="margin-top: 5px;">
+                <button   style="margin-left: 10px;" type="button" class="btn btn-success btn-xs" onclick="MostrarArchivos(@Model.idDetalle)" >Ver Archivos</button>
+            </div>
+            <br>
+        </div><br>
+        <div class="row">
+            <div class="col-sm-2">
+                <div class="col-sm-6">Mes solicitud:</div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        @for (int a = 1; a <= 12; a++)
+                        {
+                            <div class="col-sm-4"><input type="checkbox" name="messoli" id="cbox@(a)" @(Model.contieneMesSoli(a) ? "checked=\"checked\"" : "") value="@(a)">@MesEntSoli.getMesCorto((MesEntSoli.Meses)a)</div>
+
+                        }
+                                              
+                    </div>
+                </div>
+                
+
+            </div>
+            <div class="col-sm-2">
+                <div class="col-sm-6">Mes Entrega:</div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-body" disabled="disabled">
+                       @for (int a = 1; a <= 12; a++)
+                       {
+                        <div class="col-sm-4"><input type="checkbox"  name="mesent" id="cbox@(a)" @(Model.contieneMesEnt(a) ? "checked=\"checked\"" : "") value="@(a)">@MesEntSoli.getMesCorto((MesEntSoli.Meses)a)</div>
+
+                       }
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<br />
+<div class="row">
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10" style="text-align: right;">
+            <input type="button" value="Guardar" class="btn btn-default" onclick="ActualizarDetalle(@(Model.idDetalle))"/>
+            <input type="button" value="Cancelar" onclick="OcultarDetalle('@(Model.idDetalle)')" class="btn btn-danger" />
+
+        </div>
+    </div>
+</div>
+    }
+    else
+    {
+
+        <div class="row">
+            <center><h4>El material no se encuentra en la Base de Datos </h4></center>
+        </div>
+
+    }
+}
+else
+{
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="form-group">
+                <center>
+                    <h3>Su sesión ha expirado, ingrese nuevamente.</h3>
+                </center>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-sm-6 contenido-derecha">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+            </div>
+
+        </div>
+    </div>
+
+}

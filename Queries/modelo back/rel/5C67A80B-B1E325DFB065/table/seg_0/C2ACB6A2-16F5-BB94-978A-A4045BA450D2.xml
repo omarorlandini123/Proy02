@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2ACB6A2-16F5-BB94-978A-A4045BA450D2" name="T_PRESUP">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:35:40 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRESUPUESTO" id="CB8E53AD-B427-6E3F-B737-234EC3B3DD6B">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:36:28 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REG" id="6AA78CB0-3438-016B-F124-288BDE3976E5">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:50:25 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_REG" id="C29346E1-DFC9-6512-675F-390C432C24FF">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:50:25 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULT_MODIF_FEC" id="ABA73D7E-9F5E-147C-0E66-4FA0AD3AF25C">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:50:25 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULT_MODIF_USER" id="30711279-98F5-981A-02E8-6BF13E6AB1B3">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:50:25 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_VAL_INI" id="F5061E27-3B1E-6CFB-A390-1273819F8D3D">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:50:25 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_VAL_FIN" id="8882A90B-9874-FD35-6920-756C3B73877F">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:50:25 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EST_ACTUAL" id="C8A4CEAD-78F3-BAA3-77A1-B816C9A71A6F">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:50:25 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMB_PRESUP" id="87AF1292-F38A-F49A-9414-65188483BB98">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:50:25 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29943357-8E98-F612-F06C-32294873BBE6" name="T_PRESUPUESTO_PK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 22:50:25 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB8E53AD-B427-6E3F-B737-234EC3B3DD6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

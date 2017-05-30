@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECF060CF-3511-F635-AA94-88C85BE1B5BE" name="T_ACCESO">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:47:46 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACCESO" id="9F1A55FB-38A9-DE0A-4CDE-EDBCD2DADAD1">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:48:11 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESC" id="6B6B6F55-3D42-DDF1-C1E8-0346CCA03E0E">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:48:19 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78A93271-6A30-D933-74C6-81723C780306" name="T_ACCESO_PK">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 21:48:29 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F1A55FB-38A9-DE0A-4CDE-EDBCD2DADAD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

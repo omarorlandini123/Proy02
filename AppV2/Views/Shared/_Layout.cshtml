@@ -1,0 +1,149 @@
+﻿@using Entidades
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Listar Presupuestos</title>
+   
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Content/esperaAnim.css" rel="stylesheet" />
+    <link href="~/Content/estilos.css" rel="stylesheet">
+        
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div class="container">
+        <br />
+        <nav class="navbar navbar-inverse barra-principal">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="row hidden-xs" style="width: 370px;">
+                        <div class="col-md-3 hidden-sm">
+                            <a href="/Presupuesto/PorSede" class="thumbnail" style="margin-top: 20px;background-color: rgba(255, 255, 255, 0);border: 1px solid rgba(221, 221, 221, 0);">
+                                <img alt="40%x50%" style="width: 100%;" src="~/Images/Sima_Escudo.png">
+                            </a>
+                        </div>
+                        <div class="col-md-9 " style="margin-top: 20px;">
+                            <div class="row">
+
+                                <a class="navbar-brand" style="font-size: 30px;" href="/Presupuesto/PorSede">
+                                    SIMA<br>
+                                    <span style="font-size: 20px;">Sistema de Presupuestos</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="navbar-brand hidden-sm hidden-md hidden-lg" href="#">
+                        Sistema de Presupuestos
+                    </a>
+                </div>
+                @if (Session["usuario"] != null)
+                {
+                    <div id="navbar" class="navbar-collapse collapse" style="margin-top: 30px;">
+                        @if (((Usuario)Session["usuario"]).tieneAccesoA(Accesos.ConfiguracionGeneral)) { 
+                       <ul class="nav navbar-nav">
+                                <li class="">@Html.ActionLink("Configuracion","Configuracion","Login")</li>
+                            </ul>
+                        }
+                        <ul class="nav navbar-nav navbar-right">
+
+
+
+                            <li class="hidden-xs hidden-sm" style="width: 130px;margin: -20px;">
+
+                                <span class="glyphicon glyphicon-user" aria-hidden="true" style="font-size: 90px;color:#c7c7c7;"></span>
+
+
+                            </li>
+                            <li class="hidden-xs" style="">
+                                <a href="#" style="">@(((Usuario)Session["usuario"]).Nombres)</a>
+                                
+                            </li>
+
+
+                            <li class="hidden-sm hidden-md hidden-lg"><a href="#">@(((Usuario)Session["usuario"]).Nombres)</a></li>
+                            
+                            <li style="margin-left: 10px;">
+
+                                <a href="#" data-toggle="modal" data-target="#ModalGeneral" onclick="msgLogOut()">Cerrar Sesión</a>
+                            </li>
+                        </ul>
+                    </div>
+                }
+                else
+                {
+
+                    <div id="navbar" class="navbar-collapse collapse" style="margin-top: 30px;">
+                        @*<ul class="nav navbar-nav">
+                                <li class="active"><a onclick="mostrarPresupuestosPorSede();" href="#">Presupuesto</a></li>
+                            </ul>*@
+                        <ul class="nav navbar-nav navbar-right">
+                           
+                            <li style="margin-left: 10px;">
+
+                                @Html.ActionLink("Iniciar Session", "Index", "Login");
+                            </li>
+                        </ul>
+                    </div>
+                }
+            </div><!--/.container-fluid -->
+        </nav>
+
+        <div class="panel panel-default">
+            <div class="panel-body" id="contenido-principal">
+                @RenderBody()
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="ModalGeneral" role="dialog">
+        <div class="modal-dialog" id="idContenidoModal">
+
+            <!-- Modal content-->
+            @*<div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" onclick="$('#commentObservacion').val('')" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Observación de <strong> @Html.Encode(Model.mat.desc) </strong></h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <center>
+                                <label for="comment">Detalle:</label>
+                                <textarea class="form-control" rows="5" id="commentObservacion"></textarea>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="col-sm-8">
+                            <center id="alertaObser" style="display:none; color:indianred;"><h4> <strong id="contObser">Observación no puede estar en blanco</strong></h4></center>
+                        </div>
+                        <div class="col-sm-4">
+                            <button type="button" class="btn btn-default" onclick="ObservarDetalle(@Html.Encode(Model.idDetalle))" id="btnObsGuardar">Guardar</button>
+                            <button type="button" class="btn btn-default" id="btnEspere" style="display:none;">Espere ...</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal" style="display:none;" id="btnObsAceptar">Aceptar</button>
+                        </div>
+
+                    </div>
+                </div>*@
+
+        </div>
+    </div>
+    <script src="~/Scripts/jquery-3.2.0.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/funciones.js"></script>
+</body>
+</html>

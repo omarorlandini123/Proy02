@@ -1,0 +1,67 @@
+﻿@using Entidades;
+@model Sede
+
+<div class="row">
+    <br />
+    <div class="col-sm-6 panel-principal">
+        <h3>Presupuestos de Sede: <strong>@Model.desSede</strong></h3>
+        <button type="button" class="btn btn-success btn-xs" onclick="MostrarCrearPresup(@Model.codSede)">Crear Presupuesto</button>
+        <br /><br />
+        <div class="list-group">
+            @foreach (var item in Model.presupuestos)
+            {
+                        
+            <div href="#" class="list-group-item @item.estadoActualString ">
+                <div class="row">
+                    <div class="col-sm-6 excesodiv">
+                        <a href="#" onclick="verAreasDisponibles(@item.idPresupuesto)"><h4 class="list-group-item-heading">@item.nombrePresupuesto</h4></a>
+                    </div>
+                    <div class="col-sm-2">
+                        <button style="margin-left: 10px;" type="button" class="btn btn-warning btn-xs" onclick="AprobarPresupuesto(@item.idPresupuesto)">Aprobar</button>
+                    </div>
+                    <div class="col-sm-2">
+                        <button style="margin-left: 10px;" type="button" class="btn btn-danger btn-xs" onclick="DesAprobarPresupuesto(@item.idPresupuesto)">DesAprobar</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3"> Registro: </div>
+                    <div class="col-sm-3"> @item.fechaReg.ToShortDateString() </div>
+                    <div class="col-sm-2"> Monto: </div>
+                     @if (item.monto > 0)
+                    {
+                        <div class="col-sm-3">S/ @string.Format("{0:0.00}", item.monto) </div>
+                    }
+                    else
+                    {
+                        <div class="col-sm-3">S/ 0.00</div>
+                    }
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">Ultima Modif:</div>
+                    <div class="col-sm-3">@item.UltModifFec.ToShortDateString()</div>
+                    <div class="col-sm-2">Desde:</div>
+                    <div class="col-sm-4">@item.fechaValIni.ToShortDateString()</div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">Aprobado por:</div>
+                    <div class="col-sm-3"><a href="javascript:MostrarAprobacionesPresupuesto(@item.idPresupuesto)">Ver</a></div>
+                    <div class="col-sm-2">Hasta:</div>
+                    <div class="col-sm-4">@item.fechaValFin.ToShortDateString()</div>
+                </div>
+            </div>
+            }
+           
+                     
+
+            
+        </div>
+
+    </div>
+    <div class="col-sm-6 panel-secundario" id="PresupPorArea">
+        
+               
+    </div>
+
+
+</div>
+

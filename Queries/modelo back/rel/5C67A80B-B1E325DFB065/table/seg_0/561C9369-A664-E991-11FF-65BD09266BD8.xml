@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="561C9369-A664-E991-11FF-65BD09266BD8" name="T_VERSION">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:01:14 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VERSION" id="1F0A15FA-CC68-6B86-63AD-8ED78E792576">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:11:27 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NRO" id="714A27C2-5E32-EE98-91BB-D6799FFF8A86">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:11:27 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PRESUPUESTO_TIPO" id="43EAF272-8BD9-C8B6-FB4D-1742E6007CBE">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:11:27 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0B685AC-3939-E433-ABC0-4686BBC294A8" referredColumn="5D6F22EF-A4E8-C58B-1B46-A41A4AF9F1CA"/>
+</associations>
+</Column>
+<Column name="ID_AREA" id="B753A549-321A-7056-8E3D-1721650D797D">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:11:27 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_FECHA_REG" id="241DD054-857F-BAAC-9275-E05595305B59">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:11:27 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_USUARIO_REG" id="E3D538A8-BE83-DF80-81D4-5F7572AD2B38">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:11:27 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_ULT_MODIF_FEC" id="3DC5C6D1-F57C-6C41-0B52-DF2D846F28D3">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:11:27 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_FECHA_VAL_INI" id="568E4D43-75B7-23FA-9695-5E3FA129FC13">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:11:27 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_FECHA_VAL_FIN" id="28D31289-CEF8-A601-36FB-34064EF1F975">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:11:27 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EST_ACTUAL" id="44E1BA16-1D46-66A2-E9E6-EC073FAE6091">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:11:27 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40C556AA-9305-8B5C-18FC-23FB45B11067" name="T_VERSION_PK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-16 23:11:27 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F0A15FA-CC68-6B86-63AD-8ED78E792576"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="390FA2A0-9DD9-D972-8376-0F6EA3FF2786" name="T_VERSION_T_PRESUP_TIPO_FK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 00:32:08 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43EAF272-8BD9-C8B6-FB4D-1742E6007CBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

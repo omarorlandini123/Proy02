@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0733F131-2119-5241-E2E4-F9E2F55EF752" schemaObject="D2B5CE47-766E-FD80-EAB0-56EBB3B6FE46" name="T_OBSERVACIONES">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_OBSERVACIONES</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:36 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_OBSERVACIONES" id="3A4076FF-07A2-15E0-41A8-8303198C1AF9">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_OBSERVACIONES</sourceObjSchema>
+<sourceObjName>ID_OBSERVACIONES</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DET" id="CCBA5BCA-2059-8585-F8A7-49A6DB1C10A5">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_OBSERVACIONES</sourceObjSchema>
+<sourceObjName>ID_DET</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A798B2B3-AC85-7560-45B4-076EEA4CDD12" referredColumn="947B9AD9-6252-ED59-49F3-59D42DD5D21A"/>
+</associations>
+</Column>
+<Column name="OBSERVACION" id="1354018F-DA9A-0C0A-23D3-7036481383D6">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_OBSERVACIONES</sourceObjSchema>
+<sourceObjName>OBSERVACION</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBS_USR_REG" id="32CF5B34-32A6-5DF5-3F28-A7CF02D33AD8">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_OBSERVACIONES</sourceObjSchema>
+<sourceObjName>OBS_USR_REG</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OSB_FEC_REG" id="A8214D13-9AE0-4905-6A5F-8177BCEBE279">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_OBSERVACIONES</sourceObjSchema>
+<sourceObjName>OSB_FEC_REG</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBS_USR_RES" id="65D474F2-15AE-3B7D-09DA-7D19C7BA4AFA">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_OBSERVACIONES</sourceObjSchema>
+<sourceObjName>OBS_USR_RES</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBS_FEC_RES" id="FAE883AD-B378-5614-E007-F4F32A381A8B">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_OBSERVACIONES</sourceObjSchema>
+<sourceObjName>OBS_FEC_RES</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBS_RES" id="E5C43B49-8E61-3FCB-0A8F-4C1CFD9CFCA2">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_OBSERVACIONES</sourceObjSchema>
+<sourceObjName>OBS_RES</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB5B1930-F781-B440-6632-C2BA634504D5" name="T_OBSERVACIONES_PK">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_OBSERVACIONES_PK</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A4076FF-07A2-15E0-41A8-8303198C1AF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="972CE0AC-E5DD-14BD-F5BC-FF1D27BDF74F" schemaObject="D2B5CE47-766E-FD80-EAB0-56EBB3B6FE46" name="T_OBSERVACIONES_PK">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_OBSERVACIONES_PK</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A4076FF-07A2-15E0-41A8-8303198C1AF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5AE35EC-7819-964E-0E88-1E56CE158447" name="TABLE_30_T_DTL_VSN_FK">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCBA5BCA-2059-8585-F8A7-49A6DB1C10A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="080503E6-7281-0F18-D8EB-B3CE57005153" name="T_ENVIO_APROB">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-22 04:13:48 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ENVIO_APROB" id="55CE3D31-6B62-60C7-F3AB-AB279C76A492">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-22 04:15:13 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_VERSION" id="0A2BF769-08B1-BF52-666A-FC9AABDADA15">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-22 04:15:13 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="039B4F5B-BFCC-D381-8617-54E50A526DB0" referredColumn="3731772C-BCB9-621A-1714-E34D916ED35A"/>
+</associations>
+</Column>
+<Column name="FEC_REG" id="0994FB79-E7CE-6BB5-4439-28EEBE7519FA">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-22 04:15:13 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USR_REG" id="E006F2D1-844F-4E48-6730-51EB01FCBCB4">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-22 04:15:13 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="A73E87D1-D90D-0BA7-10D8-27ADC29C5EB3">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-22 04:17:58 UTC</createdTime>
+<commentInRDBMS>ACEPTADO, RECHAZADO</commentInRDBMS>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE27C78A-1E83-DF34-C03D-2945A4A218A5" name="T_ENVIO_APROB_PK">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-22 04:15:13 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55CE3D31-6B62-60C7-F3AB-AB279C76A492"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15D23A81-DF52-9056-25A8-C29EC1CA84C7" name="T_ENVIO_APROB_VERSION_FK">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-22 04:15:28 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A2BF769-08B1-BF52-666A-FC9AABDADA15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

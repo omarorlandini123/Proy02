@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="INS_OBS_DETALLE" directorySegmentName="seg_0" id="DC2BD7D5-3EC9-1345-BCC7-9B0F5F77F828">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>INS_OBS_DETALLE</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:38 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<owner>AE2292FC-43E2-FF51-8677-819EDD136431</owner>
+<source>CREATE OR REPLACE PROCEDURE CONSULTOR3.INS_OBS_DETALLE (&lt;br/&gt;VAR_ID_DETALLE IN NUMBER,&lt;br/&gt;VAR_OBSERVACION IN VARCHAR2,&lt;br/&gt;VAR_USEREG IN VARCHAR2,&lt;br/&gt;CUR_RPTA OUT sys_refcursor)AS&lt;br/&gt;BEGIN&lt;br/&gt;	&lt;br/&gt;    SAVEPOINT obtenerResultados;&lt;br/&gt;	&lt;br/&gt;	INSERT INTO T_OBSERVACIONES (ID_DET,OBSERVACION,OBS_USR_REG,OSB_FEC_REG)&lt;br/&gt;	VALUES (VAR_ID_DETALLE,VAR_OBSERVACION,VAR_USEREG,SYSDATE);&lt;br/&gt;&lt;br/&gt;	OPEN CUR_RPTA FOR&lt;br/&gt;	SELECT 1 AS RPTA FROM DUAL;&lt;br/&gt;	&lt;br/&gt;EXCEPTION &lt;br/&gt;        WHEN OTHERS THEN&lt;br/&gt;&lt;br/&gt;            ROLLBACK TO obtenerResultados;&lt;br/&gt;            RAISE;&lt;br/&gt;END;</source>
+<body>CREATE OR REPLACE PROCEDURE CONSULTOR3.INS_OBS_DETALLE (&lt;br/&gt;VAR_ID_DETALLE IN NUMBER,&lt;br/&gt;VAR_OBSERVACION IN VARCHAR2,&lt;br/&gt;VAR_USEREG IN VARCHAR2,&lt;br/&gt;CUR_RPTA OUT sys_refcursor)AS&lt;br/&gt;BEGIN&lt;br/&gt;	&lt;br/&gt;    SAVEPOINT obtenerResultados;&lt;br/&gt;	&lt;br/&gt;	INSERT INTO T_OBSERVACIONES (ID_DET,OBSERVACION,OBS_USR_REG,OSB_FEC_REG)&lt;br/&gt;	VALUES (VAR_ID_DETALLE,VAR_OBSERVACION,VAR_USEREG,SYSDATE);&lt;br/&gt;&lt;br/&gt;	OPEN CUR_RPTA FOR&lt;br/&gt;	SELECT 1 AS RPTA FROM DUAL;&lt;br/&gt;	&lt;br/&gt;EXCEPTION &lt;br/&gt;        WHEN OTHERS THEN&lt;br/&gt;&lt;br/&gt;            ROLLBACK TO obtenerResultados;&lt;br/&gt;            RAISE;&lt;br/&gt;END;</body>
+</StoredProcedureOraclev10g>

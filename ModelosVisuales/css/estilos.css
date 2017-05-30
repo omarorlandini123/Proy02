@@ -1,0 +1,52 @@
+.excesodiv{
+
+	    overflow-x: hidden;
+}
+
+
+
+.est-edicion{
+	background-color: #fbef86;
+	color: #6d6969;	    
+}
+.est-edicion:hover{
+	background-color: #fbe315 !important;
+	    
+}
+
+
+.est-aprobado{
+	background-color: #9fda5a;
+	color: #6d6969;
+}
+.est-aprobado:hover{
+	background-color: #98d056 !important;
+}
+
+
+.est-inactivo{
+	background-color: #85c4f7;
+	color: #6d6969;
+}
+.est-inactivo:hover{
+	background-color: #5eb2f5 !important;
+}
+
+
+.est-desaprobado{
+	background-color: #f37a68;
+	color: #333131;
+
+}
+.link-desaprobado{
+	color: #1a4367
+}
+.est-desaprobado:hover{
+	background-color: #d85945 !important;
+}
+
+.color-indicador{
+	font-size: 20px;
+	Color:#fd0101;
+
+}

@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36F4BC49-D106-C0BD-4BF6-DF8286CADCC4" name="T_OBSERVACIONES">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 04:01:08 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_OBSERVACIONES" id="947273EB-FC67-8E76-EC75-0079A5D38F7B">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 04:05:46 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DET" id="73C33267-3CDA-32BF-FEFD-898A5FCC37FB">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 04:05:46 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDC9902F-1724-10F5-B8F4-76ECAEC2BB64" referredColumn="350C6142-8291-2D93-A4D2-7788C133DF95"/>
+</associations>
+</Column>
+<Column name="OBSERVACION" id="B21A03A4-A0E9-B27E-1286-7EB8E94ABFE4">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 04:05:46 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBS_USR_REG" id="E8B48637-491D-F7FE-848C-FFD1ED13DF99">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 04:05:46 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OSB_FEC_REG" id="AA585A48-9ECA-D6DD-3900-5E1B72F36BCA">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 04:05:46 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBS_USR_RES" id="A84196D4-B53C-6724-2288-80A97126037A">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 04:05:46 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBS_FEC_RES" id="017052D3-6048-1B2D-B0D7-C0911E33D9C4">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 04:05:46 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBS_RES" id="DBB34758-CF2D-BFE7-FB92-BBA24E3FA714">
+<createdBy>oorlandini</createdBy>
+<createdTime>2017-04-20 15:48:55 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="764F2DFE-9554-B170-5A03-FFEC2B064183" name="T_OBSERVACIONES_PK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 04:05:46 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="947273EB-FC67-8E76-EC75-0079A5D38F7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F4B531E-811C-D1DB-1CCF-2FA7876BC75D" name="TABLE_30_T_DTL_VSN_FK">
+<createdBy>JHOSELYN</createdBy>
+<createdTime>2017-04-17 04:05:47 UTC</createdTime>
+<ownerDesignName>modelo back</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73C33267-3CDA-32BF-FEFD-898A5FCC37FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

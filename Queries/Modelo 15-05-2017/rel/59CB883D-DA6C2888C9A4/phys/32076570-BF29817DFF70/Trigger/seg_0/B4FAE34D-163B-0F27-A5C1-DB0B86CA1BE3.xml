@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="T_MES_ENT_SOL_AI_TRIG" directorySegmentName="seg_0" id="B4FAE34D-163B-0F27-A5C1-DB0B86CA1BE3">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_MES_ENT_SOL_AI_TRIG</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;    &lt;br/&gt;    SELECT T_MES_ENT_SOL_AI.NEXTVAL&lt;br/&gt;    INTO :new.ID_MES_ENTREGA&lt;br/&gt;    FROM dual;&lt;br/&gt;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>AE2292FC-43E2-FF51-8677-819EDD136431</owner>
+<table>4860CD3D-7017-0CC0-E818-58D1FAB91D84</table>
+</TriggerOraclev10g>

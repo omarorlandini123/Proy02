@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="DEL_DET_VERSION" directorySegmentName="seg_0" id="68C70AC8-D766-ED2C-8CD4-CA755D2BD010">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>DEL_DET_VERSION</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:38 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<owner>AE2292FC-43E2-FF51-8677-819EDD136431</owner>
+<source>CREATE OR REPLACE PROCEDURE CONSULTOR3.DEL_DET_VERSION (&lt;br/&gt;VAR_ID_DET_VERSION IN NUMBER,&lt;br/&gt;CUR_RPTA OUT sys_refcursor)AS&lt;br/&gt;BEGIN&lt;br/&gt;	&lt;br/&gt;    SAVEPOINT obtenerResultados;&lt;br/&gt;	&lt;br/&gt;	DELETE FROM T_OBSERVACIONES WHERE ID_DET=VAR_ID_DET_VERSION;&lt;br/&gt;	DELETE FROM T_MES_ENT_SOL WHERE ID_DETALLE=VAR_ID_DET_VERSION;&lt;br/&gt;	DELETE FROM T_DET_ARCHIVO WHERE ID_DETALLE=VAR_ID_DET_VERSION;&lt;br/&gt;	DELETE FROM T_DET_VERSION WHERE ID_DETALLE=VAR_ID_DET_VERSION;&lt;br/&gt;&lt;br/&gt;	OPEN CUR_RPTA FOR&lt;br/&gt;	SELECT 1 AS RPTA FROM DUAL;&lt;br/&gt;	&lt;br/&gt;EXCEPTION &lt;br/&gt;        WHEN OTHERS THEN&lt;br/&gt;&lt;br/&gt;            ROLLBACK TO obtenerResultados;&lt;br/&gt;            RAISE;&lt;br/&gt;END;</source>
+<body>CREATE OR REPLACE PROCEDURE CONSULTOR3.DEL_DET_VERSION (&lt;br/&gt;VAR_ID_DET_VERSION IN NUMBER,&lt;br/&gt;CUR_RPTA OUT sys_refcursor)AS&lt;br/&gt;BEGIN&lt;br/&gt;	&lt;br/&gt;    SAVEPOINT obtenerResultados;&lt;br/&gt;	&lt;br/&gt;	DELETE FROM T_OBSERVACIONES WHERE ID_DET=VAR_ID_DET_VERSION;&lt;br/&gt;	DELETE FROM T_MES_ENT_SOL WHERE ID_DETALLE=VAR_ID_DET_VERSION;&lt;br/&gt;	DELETE FROM T_DET_ARCHIVO WHERE ID_DETALLE=VAR_ID_DET_VERSION;&lt;br/&gt;	DELETE FROM T_DET_VERSION WHERE ID_DETALLE=VAR_ID_DET_VERSION;&lt;br/&gt;&lt;br/&gt;	OPEN CUR_RPTA FOR&lt;br/&gt;	SELECT 1 AS RPTA FROM DUAL;&lt;br/&gt;	&lt;br/&gt;EXCEPTION &lt;br/&gt;        WHEN OTHERS THEN&lt;br/&gt;&lt;br/&gt;            ROLLBACK TO obtenerResultados;&lt;br/&gt;            RAISE;&lt;br/&gt;END;</body>
+</StoredProcedureOraclev10g>

@@ -1,0 +1,150 @@
+﻿@using Entidades;
+@model  Entidades.Version
+
+
+<h3>@(Model.presupuestoTipo.presupuesto.nombrePresupuesto) - @(Model.presupuestoTipo.tipoPresupuesto.nombrePresupuesto)  
+    @if (Model.numeroVersion != 0)
+    {
+        <strong> - Versión #@Model.numeroVersion</strong>
+    }
+    </h3>
+@if (Model.area != null)
+{
+    <h4>Vista del Área:  @Model.area.desArea</h4>
+}
+else
+{
+    <h4>Resumen de Todas las Ultimas versiones en las áreas</h4>
+}
+<br />
+<form>
+    <input type="hidden" value="@Model.idVersion" id="idVersion" />
+    <input type="hidden" value="@ViewBag.idTipo" id="idTipo" />
+</form>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-sm-6">
+                <button type="button" class="btn btn-success btn-sm" onclick="AprobarVersion(@Model.idVersion)"> Aprobar </button>
+                <button type="button" class="btn btn-danger btn-sm" onclick="RechazarVersion(@Model.idVersion)" > Rechazar Todo </button>
+                <button type="button" class="btn btn-info btn-sm" onclick="EnviarAprobacion(@Model.idVersion)" > Enviar Aprobación </button>
+
+            </div>
+            <div class="col-sm-6 " role="group" aria-label="...">
+                <div class="dropdown" style="float: right;">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        @ViewBag.TipoDetalles
+                        <span class="caret"></span>
+                    </button>
+                    
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                       
+                        <li> @Html.ActionLink("Materiales y Suministros" , "Detalle" , "Presupuesto" , new { id = Model.idVersion , idTipo = 1 }, null) </li>
+                        <li> @Html.ActionLink("Servicios" , "Detalle" , "Presupuesto", new { id = Model.idVersion , idTipo = 2 }, null) </li>
+                    </ul>
+
+                </div>
+                
+                <div style="float: right;margin-right:5px;">
+                     <button type="button" class="btn btn-warning btn-sm" onclick="MostrarPanelNuevo(@ViewBag.idTipo)" > Agregar Ítem </button>
+                </div>
+            </div>
+            
+        </div><br/>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="estado">
+                    <div class="estado-ind estado-ind-verde" ></div>
+                    <label>Aprobado</label>
+                </div>
+                <div class="estado">
+                    <div class="estado-ind estado-ind-blanco"></div>
+                    <label>En Edición</label>
+                </div>
+                <div class="estado">
+                    <div class="estado-ind estado-ind-rojo"></div>
+                    <label>Observado</label>
+                    <span onclick="getListaDetalle('')" class="glyphicon glyphicon-refresh"></span>
+                </div>
+
+            </div>
+            <div class="col-sm-4 col-sm-offset-2">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Buscar ... " id="cond_buscar" >
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button" onclick="getListaDetalle($('#cond_buscar').val())">Buscar</button>
+                    </span>
+                </div>
+            </div>
+        </div><br/>
+        <div class="row" id="DIV_NEW_ITEM" >
+            
+        </div>
+        
+        <div class="row" id="ListaDetalle">
+            <div class="col-sm-12">
+                <table class="table table-hover">
+                    <tr>
+                        <td><b>#</b></td>
+                        <td><b>Código</b></td>
+                        <td><b>Descripción</b></td>
+                        <td><b>Unid.</b></td>
+                        <td><b>Precio Unit.</b></td>
+                        <td><b>Cantidad</b></td>
+                        <td><b>Precio</b></td>
+                        <td></td>
+                    </tr>
+                    @if (Model.detalles != null)
+                    {
+                        foreach (var item in Model.detalles)
+                        {
+                            var claseFila = "";
+                            if (item.estado == Aprobacion.estados.Aprobado)
+                            {
+                                claseFila = "success";
+                            }
+                            else if (item.estado == Aprobacion.estados.Desaprobado)
+                            {
+                                claseFila = "danger";
+                            }
+                            <tr class="@claseFila">
+                                <td>@item.idDetalle</td>
+                                <td>@Html.DisplayFor(modelItem => item.mat.codProducto)</td>
+                                <td>@Html.DisplayFor(modelItem => item.mat.desc)</td>
+                                <td>@Html.DisplayFor(modelItem => item.uniSoli)</td>
+                                <td>@Html.DisplayFor(modelItem => item.precioSoli)</td>
+                                <td>@Html.DisplayFor(modelItem => item.cantidadSoli)</td>
+                                <td>@Html.DisplayFor(modelItem => item.totalSoli)</td>
+                                <td>
+                                    <button type="button" class="btn btn-success btn-xs" onclick="AprobarDetalle(@item.idDetalle)">Aprobar</button>
+                                    <button type="button" class="btn btn-warning btn-xs" onclick="ExpandirDetalle('@item.idDetalle')">Editar</button>
+                                    <button type="button" class="btn btn-primary btn-xs" onclick="ExpandirObservaciones('@item.idDetalle')">Obser</button>
+                                    <button type="button" class="btn btn-danger btn-xs" onclick="MostrarEliminarDetalle('@item.idDetalle')">Eliminar</button>
+
+                                </td>
+                            </tr>
+                        <tr style="display:none;" id="DETALLE_@item.idDetalle">
+                            <td colspan="8">
+                                <div class="col-sm-12" id="DETALLEDIV_@item.idDetalle">
+
+                                </div>
+                            
+                            </td>
+                        </tr> 
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="8"> <center>No Existen ítems registrados </center></td>
+                        </tr>
+                    }
+
+
+                </table>
+            </div>
+        </div>
+       
+    </div>
+</div>
+

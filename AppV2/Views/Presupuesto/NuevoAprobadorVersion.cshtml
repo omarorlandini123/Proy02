@@ -1,0 +1,28 @@
+﻿
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <center><h4 class="modal-title">Nuevo encargado para aprobar versión</h4></center>
+    </div>
+    <div class="modal-body">
+        <div class="row">
+            <label for="nombrePresupuesto" class="control-label col-sm-5">Orden</label>
+            <div class="form-group col-sm-7">
+                <input class="form-control" type="text" name="" value="1" id="idOrden" placeholder="El orden de aprobacion" />
+            </div>
+            <label for="nombrePresupuesto" class="control-label col-sm-5">Usuario</label>
+            <div class="form-group col-sm-7">
+                <input class="form-control" type="text" name="" value="" id="idUserApro" placeholder="El usuario que aprobará" />
+            </div>
+
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <div class="col-sm-6 contenido-derecha">
+            <button type="button" class="btn btn-warning" onclick="AgregarAprobVersion(@ViewBag.idVersion)" id="btnAceptar">Agregar</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+        </div>
+
+    </div>
+</div>

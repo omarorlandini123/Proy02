@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4860CD3D-7017-0CC0-E818-58D1FAB91D84" schemaObject="D2B5CE47-766E-FD80-EAB0-56EBB3B6FE46" name="T_MES_ENT_SOL">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_MES_ENT_SOL</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:36 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MES_ENTREGA" id="F544A6F5-953D-0A5C-6247-8046B3ED0267">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_MES_ENT_SOL</sourceObjSchema>
+<sourceObjName>ID_MES_ENTREGA</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DETALLE" id="42322FCC-C3D6-68F1-4F62-BB3158917598">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_MES_ENT_SOL</sourceObjSchema>
+<sourceObjName>ID_DETALLE</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D20EB4AE-8BA2-BE71-121E-4DD34F40BF92" referredColumn="947B9AD9-6252-ED59-49F3-59D42DD5D21A"/>
+</associations>
+</Column>
+<Column name="MES" id="13B3CED8-E00E-EC8C-8396-2478BFD582D5">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_MES_ENT_SOL</sourceObjSchema>
+<sourceObjName>MES</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="A0653C04-6BCB-2E8D-6B5E-3FDE683A2E8D">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_MES_ENT_SOL</sourceObjSchema>
+<sourceObjName>TIPO</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MES_ENT_FEC_REG" id="DDC3BD7D-BA44-AA3B-AEAF-137827495930">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_MES_ENT_SOL</sourceObjSchema>
+<sourceObjName>MES_ENT_FEC_REG</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MES_ENT_USR_REG" id="96874A81-A145-CDD9-43F6-32D53677EEC3">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>T_MES_ENT_SOL</sourceObjSchema>
+<sourceObjName>MES_ENT_USR_REG</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="814B3D87-169A-E9BB-D5B9-F7C04E6BB56F" name="T_MES_ENT_SOL_PK">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_MES_ENT_SOL_PK</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F544A6F5-953D-0A5C-6247-8046B3ED0267"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18CE5C7B-EC42-D9A4-6F63-F740BDBD0023" schemaObject="D2B5CE47-766E-FD80-EAB0-56EBB3B6FE46" name="T_MES_ENT_SOL_PK">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_MES_ENT_SOL_PK</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F544A6F5-953D-0A5C-6247-8046B3ED0267"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23CA1065-41AE-DA88-AA0A-A3CD1D3D7F1C" name="T_MES_ENTSOL_T_DET_VSN_FK">
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42322FCC-C3D6-68F1-4F62-BB3158917598"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="T_PRIORIDAD_AI_TRIG" directorySegmentName="seg_0" id="D98C8C21-2141-FE82-9866-F4BF708A3659">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>T_PRIORIDAD_AI_TRIG</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:37 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;    &lt;br/&gt;    SELECT T_PRIORIDAD_AI.NEXTVAL&lt;br/&gt;    INTO :new.ID_PRIORIDAD&lt;br/&gt;    FROM dual;&lt;br/&gt;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>AE2292FC-43E2-FF51-8677-819EDD136431</owner>
+<table>7B04CBA4-3AF0-F898-2C0A-696C332D356A</table>
+</TriggerOraclev10g>

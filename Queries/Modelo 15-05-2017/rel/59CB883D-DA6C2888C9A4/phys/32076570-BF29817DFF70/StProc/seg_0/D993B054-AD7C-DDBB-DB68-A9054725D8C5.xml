@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="GET_VERSION" directorySegmentName="seg_0" id="D993B054-AD7C-DDBB-DB68-A9054725D8C5">
+<sourceConnName>Desarrollo2</sourceConnName>
+<sourceObjSchema>CONSULTOR3</sourceObjSchema>
+<sourceObjName>GET_VERSION</sourceObjName>
+<createdBy>consultor3</createdBy>
+<createdTime>2017-05-16 03:15:38 UTC</createdTime>
+<ownerDesignName>Modelo 15-05-2017</ownerDesignName>
+<owner>AE2292FC-43E2-FF51-8677-819EDD136431</owner>
+<source>CREATE OR REPLACE PROCEDURE CONSULTOR3.GET_VERSION (&lt;br/&gt;VAR_ID_VERSION IN NUMBER,&lt;br/&gt;CUR_RPTA OUT sys_refcursor)IS&lt;br/&gt;BEGIN&lt;br/&gt;&lt;br/&gt;    SAVEPOINT obtenerResultados;&lt;br/&gt;&lt;br/&gt;    OPEN CUR_RPTA FOR&lt;br/&gt;    SELECT&lt;br/&gt;        A.id_version,&lt;br/&gt;        A.nro,&lt;br/&gt;        A.id_det_presup,&lt;br/&gt;        A.id_area,&lt;br/&gt;        A.v_fecha_reg,&lt;br/&gt;        A.v_usuario_reg,&lt;br/&gt;        A.v_ult_modif_fec,&lt;br/&gt;        A.v_ult_mod_usr,&lt;br/&gt;        A.v_fecha_val_ini,&lt;br/&gt;        A.v_fecha_val_fin,&lt;br/&gt;        A.est_actual&lt;br/&gt;    FROM&lt;br/&gt;        t_version A&lt;br/&gt;        WHERE A.id_version = VAR_ID_VERSION;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;EXCEPTION &lt;br/&gt;        WHEN OTHERS THEN&lt;br/&gt;&lt;br/&gt;            ROLLBACK TO obtenerResultados;&lt;br/&gt;            RAISE;&lt;br/&gt;END;</source>
+<body>CREATE OR REPLACE PROCEDURE CONSULTOR3.GET_VERSION (&lt;br/&gt;VAR_ID_VERSION IN NUMBER,&lt;br/&gt;CUR_RPTA OUT sys_refcursor)IS&lt;br/&gt;BEGIN&lt;br/&gt;&lt;br/&gt;    SAVEPOINT obtenerResultados;&lt;br/&gt;&lt;br/&gt;    OPEN CUR_RPTA FOR&lt;br/&gt;    SELECT&lt;br/&gt;        A.id_version,&lt;br/&gt;        A.nro,&lt;br/&gt;        A.id_det_presup,&lt;br/&gt;        A.id_area,&lt;br/&gt;        A.v_fecha_reg,&lt;br/&gt;        A.v_usuario_reg,&lt;br/&gt;        A.v_ult_modif_fec,&lt;br/&gt;        A.v_ult_mod_usr,&lt;br/&gt;        A.v_fecha_val_ini,&lt;br/&gt;        A.v_fecha_val_fin,&lt;br/&gt;        A.est_actual&lt;br/&gt;    FROM&lt;br/&gt;        t_version A&lt;br/&gt;        WHERE A.id_version = VAR_ID_VERSION;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;EXCEPTION &lt;br/&gt;        WHEN OTHERS THEN&lt;br/&gt;&lt;br/&gt;            ROLLBACK TO obtenerResultados;&lt;br/&gt;            RAISE;&lt;br/&gt;END;</body>
+</StoredProcedureOraclev10g>
